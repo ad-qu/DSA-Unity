@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
-    y: 43
-    width: 1366
-    height: 685
+    x: -4
+    y: 50.4
+    width: 1536
+    height: 780.8
   m_ShowMode: 4
-  m_Title: GitHub
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 1
+  m_Maximized: 0
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -43,12 +43,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1366
-    height: 635
+    width: 1536
+    height: 730.8
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 40
+  controlID: 100
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -59,23 +59,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Window
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1085
+    x: 1214.4
     y: 0
-    width: 281
-    height: 635
-  m_MinSize: {x: 101, y: 121}
+    width: 321.59998
+    height: 730.8
+  m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -93,8 +93,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 259
-    height: 376
+    width: 291.2
+    height: 432
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
@@ -118,9 +118,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 376
-    width: 1085
-    height: 259
+    y: 432
+    width: 1214.4
+    height: 298.8
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 15}
@@ -128,7 +128,7 @@ MonoBehaviour:
   - {fileID: 15}
   - {fileID: 13}
   - {fileID: 14}
-  - {fileID: 20}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 2
 --- !u!114 &6
@@ -151,8 +151,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1366
-    height: 685
+    width: 1536
+    height: 780.8
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -176,7 +176,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1366
+    width: 1536
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -197,8 +197,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 665
-    width: 1366
+    y: 760.8
+    width: 1536
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -221,12 +221,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1085
-    height: 635
+    width: 1214.4
+    height: 730.8
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 114
+  controlID: 101
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -246,12 +246,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1085
-    height: 376
+    width: 1214.4
+    height: 432
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 115
+  controlID: 90
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -267,18 +267,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 259
+    x: 291.2
     y: 0
-    width: 826
-    height: 376
+    width: 923.2
+    height: 432
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
-  - {fileID: 19}
+  - {fileID: 20}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -299,22 +299,22 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1085
-    y: 73
-    width: 280
-    height: 614
+    x: 1220
+    y: 73.6
+    width: 315
+    height: 709.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  progressMessageClearTime: 149.7195574
+  progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
+  currentStatusEntriesHasUpdate: 1
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -399,79 +399,22 @@ MonoBehaviour:
     localBranches: []
     remoteBranches: []
   changesView:
-    currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
+    currentBranchHasUpdate: 1
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
     commitBody: 
     commitMessage: ficheros
-    currentBranch: '[master]'
+    currentBranch: '[main]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
         keys:
         - 00000000000000001000000000000000
-        - 6a1c73348c4b9a44ba45cb9ee3d9423e
-        - ad20dfd8183ad0244b894e18103c4bfe
-        - 73ff648610d9b5b4db278d323058c6c4
-        - ffe6a83b4d106dc4ba2590ab1c599eae
-        - 03cbff6183d9f9c4b96cb2c39f15ba29
-        - 81381f4e140a82e40a73cf262b636217
         - 131a6b21c8605f84396be9f6751fb6e3
         - 2cda990e2423bbf4892e6590ba056729
-        - 720712be6e31c444f88f57bb85bf5fa5
-        - 18e096a98c2704c40a818dd1214cd179
-        - cad92998c5182496e8b989b406d9f156
-        - d516f2a1bec6a9645a084ef8c9237132
-        - f81094832d834c64d93b198cb16b6a3e
-        - 0188ec438976e5849b40a2c1ce5f20f9
-        - 136dc24f151211d438acee17aff4e934
-        - dae2ecee8a704dd59797e26554ff8606
-        - c743ae24ee231884887054d20ccdd0ab
-        - c743ae24ee231884887054d20ccdd0ae
-        - 15ca2bebf173f2d4484686a03a45b56d
-        - 68c7e4565cde54155bb78d8e935f1ddb
-        - 68c7e4565cde54155bb78d8e935f1dd4
-        - 863e1b9976c4e46d29bf83928b3a8ab2
-        - 636d33ae594884e7d80b569f429d245d
-        - 21206c65839f84d0e9ae14bc1fdc68db
-        - ddb8611e748af425a82a497ac5a98c0c
-        - d601ecb6855bb432bae2aa49d8fd82e8
-        - 48c22d5d7479fcb49ab3be0cdd2ccec0
-        - f9fc9b08ecd899944adf9860b4abd6b6
-        - 790749ba7e4b18141953e39cb13f1b79
-        - 555cd6f54c03341b1970d950df1a5ee5
-        - a0ded7adcc817ce489fec07977f16d13
-        - 868fbb4c41814baebc00f96e24ede2f8
-        - fe5abeadcbe591e4fa9107fbc02f3998
-        - 99b48d4d4f6a66340ab06bd487d70a45
-        - 151a1d946b98deb4b98445400983ba92
-        - a83159a46d87d2a4f8cec651049b9231
-        - fbd82be732cc284439cf2972d65549bf
-        - f90460a258633c646b1738e93124cc74
-        - b0475c5ff28bc2741a79c2b92996f5e0
         - 87bb957c3625a49439edafec972fe7b7
         - 4f057ab5fe423a64d928a62d05dc5f9d
-        - bef11ee2ea83d984eacb47891b84a704
-        - e71b41e9c6bf3d04a89b1ef14de576c7
-        - 00000000000000006000000000000000
-        - 00000000000000007100000000000000
-        - 00000000000000008000000000000000
-        - 0000000000000000b000000000000000
-        - 0000000000000000c000000000000000
-        - 00000000000000006100000000000000
-        - 00000000000000002000000000000000
-        - 0000000000000000f100000000000000
-        - 00000000000000004100000000000000
-        - 00000000000000005100000000000000
-        - 0000000000000000b100000000000000
-        - 00000000000000004000000000000000
-        - 0000000000000000e100000000000000
-        - 00000000000000009000000000000000
         - 00000000000000003000000000000000
-        - 00000000000000007000000000000000
-        - 0000000000000000a100000000000000
-        - 0000000000000000d100000000000000
-        - 0000000000000000c100000000000000
         values:
         - path: Assets
           label: Assets
@@ -491,114 +434,6 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Animations
-          label: Animations
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Animations\Mario
-          label: Mario
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Animations\Mario\Idle.anim
-          label: Idle.anim
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Animations\Mario\Idle.anim
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Animations\Mario\Idle.anim
-            projectPath: Assets\Animations\Mario\Idle.anim
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Animations\Mario\Jump.anim
-          label: Jump.anim
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Animations\Mario\Jump.anim
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Animations\Mario\Jump.anim
-            projectPath: Assets\Animations\Mario\Jump.anim
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Animations\Mario\Player.controller
-          label: Player.controller
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Animations\Mario\Player.controller
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Animations\Mario\Player.controller
-            projectPath: Assets\Animations\Mario\Player.controller
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Animations\Mario\Walk.anim
-          label: Walk.anim
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Animations\Mario\Walk.anim
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Animations\Mario\Walk.anim
-            projectPath: Assets\Animations\Mario\Walk.anim
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
         - path: Assets\Levels
           label: Levels
           level: 1
@@ -621,7 +456,7 @@ MonoBehaviour:
           label: Level1.unity
           level: 2
           isFolder: 0
-          isContainer: 1
+          isContainer: 0
           isCollapsed: 0
           isHidden: 0
           isActive: 0
@@ -630,569 +465,11 @@ MonoBehaviour:
           isLocked: 0
           gitStatusEntry:
             path: Assets\Levels\Level1.unity
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Levels\Level1.unity
+            fullPath: C:\Users\irene\DSA-Unity\Assets\Levels\Level1.unity
             projectPath: Assets\Levels\Level1.unity
             originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins
-          label: Plugins
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
             indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Plugins\GitHub
-          label: GitHub
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Plugins\GitHub\Editor
-          label: Editor
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-          label: AsyncBridge.Net35.dll
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-            projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-          label: big-logo@2x.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\big-logo@2x.png
-            projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\credits.txt
-          label: credits.txt
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\credits.txt
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\credits.txt
-            projectPath: Assets\Plugins\GitHub\Editor\credits.txt
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\eula.txt
-          label: eula.txt
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\eula.txt
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\eula.txt
-            projectPath: Assets\Plugins\GitHub\Editor\eula.txt
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-          label: ExtensionLoader.cs
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-            projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-          label: GitHub.Api.45.dll
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-            projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-          label: GitHub.Api.dll
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-            projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-          label: GitHub.Logging.dll
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-            projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-          label: GitHub.Unity.45.dll
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-            projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-          label: GitHub.Unity.dll
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-            projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-          label: GitHub.UnityShim.dll
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-            projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
-          label: libsfw.bundle
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\libsfw.bundle
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\libsfw.bundle
-            projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\libsfw.so
-          label: libsfw.so
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\libsfw.so
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\libsfw.so
-            projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-          label: Mono.Posix.dll
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-            projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-          label: QuickGuide.pdf
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-            projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-          label: ReadOnlyCollectionsInterfaces.dll
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-            projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
-          label: sfw.net.dll
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\sfw.net.dll
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\sfw.net.dll
-            projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
-          label: System.Threading.dll
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\System.Threading.dll
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\System.Threading.dll
-            projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-          label: UnityAPIWrapper.cs
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-            projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\x64
-          label: x64
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-          label: pthreadVC2.dll
-          level: 5
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-            projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-          label: sfw_x64.dll
-          level: 5
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-            projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\x86
-          label: x86
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-          label: pthreadVC2.dll
-          level: 5
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-            projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-          label: sfw_x86.dll
-          level: 5
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-            projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Prefabs
-          label: Prefabs
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Prefabs\Ground.prefab
-          label: Ground.prefab
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Prefabs\Ground.prefab
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Prefabs\Ground.prefab
-            projectPath: Assets\Prefabs\Ground.prefab
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Prefabs\Player.prefab
-          label: Player.prefab
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Prefabs\Player.prefab
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Prefabs\Player.prefab
-            projectPath: Assets\Prefabs\Player.prefab
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
+            workTreeStatus: 3
         - path: Assets\Scripts
           label: Scripts
           level: 1
@@ -1215,7 +492,7 @@ MonoBehaviour:
           label: PlayerMovement.cs
           level: 2
           isFolder: 0
-          isContainer: 1
+          isContainer: 0
           isCollapsed: 0
           isHidden: 0
           isActive: 0
@@ -1224,299 +501,11 @@ MonoBehaviour:
           isLocked: 0
           gitStatusEntry:
             path: Assets\Scripts\PlayerMovement.cs
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Scripts\PlayerMovement.cs
+            fullPath: C:\Users\irene\DSA-Unity\Assets\Scripts\PlayerMovement.cs
             projectPath: Assets\Scripts\PlayerMovement.cs
             originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Sprites
-          label: Sprites
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
             indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Sprites\Sprites.png
-          label: Sprites.png
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprites\Sprites.png
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Sprites\Sprites.png
-            projectPath: Assets\Sprites\Sprites.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\AudioManager.asset
-          label: AudioManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\AudioManager.asset
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\AudioManager.asset
-            projectPath: ProjectSettings\AudioManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\ClusterInputManager.asset
-          label: ClusterInputManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\ClusterInputManager.asset
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\ClusterInputManager.asset
-            projectPath: ProjectSettings\ClusterInputManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\DynamicsManager.asset
-          label: DynamicsManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\DynamicsManager.asset
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\DynamicsManager.asset
-            projectPath: ProjectSettings\DynamicsManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\EditorBuildSettings.asset
-          label: EditorBuildSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\EditorBuildSettings.asset
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\EditorBuildSettings.asset
-            projectPath: ProjectSettings\EditorBuildSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\EditorSettings.asset
-          label: EditorSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\EditorSettings.asset
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\EditorSettings.asset
-            projectPath: ProjectSettings\EditorSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\GraphicsSettings.asset
-          label: GraphicsSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\GraphicsSettings.asset
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\GraphicsSettings.asset
-            projectPath: ProjectSettings\GraphicsSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\InputManager.asset
-          label: InputManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\InputManager.asset
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\InputManager.asset
-            projectPath: ProjectSettings\InputManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\MemorySettings.asset
-          label: MemorySettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\MemorySettings.asset
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\MemorySettings.asset
-            projectPath: ProjectSettings\MemorySettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\NavMeshAreas.asset
-          label: NavMeshAreas.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\NavMeshAreas.asset
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\NavMeshAreas.asset
-            projectPath: ProjectSettings\NavMeshAreas.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\Physics2DSettings.asset
-          label: Physics2DSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\Physics2DSettings.asset
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\Physics2DSettings.asset
-            projectPath: ProjectSettings\Physics2DSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\PresetManager.asset
-          label: PresetManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\PresetManager.asset
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\PresetManager.asset
-            projectPath: ProjectSettings\PresetManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\ProjectSettings.asset
-          label: ProjectSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\ProjectSettings.asset
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\ProjectSettings.asset
-            projectPath: ProjectSettings\ProjectSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\ProjectVersion.txt
-          label: ProjectVersion.txt
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\ProjectVersion.txt
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\ProjectVersion.txt
-            projectPath: ProjectSettings\ProjectVersion.txt
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\QualitySettings.asset
-          label: QualitySettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\QualitySettings.asset
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\QualitySettings.asset
-            projectPath: ProjectSettings\QualitySettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
+            workTreeStatus: 3
         - path: ProjectSettings\TagManager.asset
           label: TagManager.asset
           level: 1
@@ -1530,160 +519,21 @@ MonoBehaviour:
           isLocked: 0
           gitStatusEntry:
             path: ProjectSettings\TagManager.asset
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\TagManager.asset
+            fullPath: C:\Users\irene\DSA-Unity\ProjectSettings\TagManager.asset
             projectPath: ProjectSettings\TagManager.asset
             originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\TimeManager.asset
-          label: TimeManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\TimeManager.asset
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\TimeManager.asset
-            projectPath: ProjectSettings\TimeManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\UnityConnectSettings.asset
-          label: UnityConnectSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\UnityConnectSettings.asset
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\UnityConnectSettings.asset
-            projectPath: ProjectSettings\UnityConnectSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\VersionControlSettings.asset
-          label: VersionControlSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\VersionControlSettings.asset
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\VersionControlSettings.asset
-            projectPath: ProjectSettings\VersionControlSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\VFXManager.asset
-          label: VFXManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\VFXManager.asset
-            fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\VFXManager.asset
-            projectPath: ProjectSettings\VFXManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
+            indexStatus: 0
+            workTreeStatus: 3
       folders:
         keys:
-        - .vscode
         - Assets
-        - Assets\Animations
-        - Assets\Animations\Mario
         - Assets\Levels
-        - Assets\Plugins
-        - Assets\Plugins\GitHub
-        - Assets\Plugins\GitHub\Editor
-        - Assets\Plugins\GitHub\Editor\x64
-        - Assets\Plugins\GitHub\Editor\x86
-        - Assets\Prefabs
         - Assets\Scripts
-        - Assets\Sprites
-        - Packages
         - ProjectSettings
-        - UserSettings
-        - UserSettings\Layouts
         values:
-        - path: .vscode
-          label: .vscode
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
         - path: Assets
           label: Assets
           level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Animations
-          label: Animations
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Animations\Mario
-          label: Mario
-          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1717,114 +567,6 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Plugins
-          label: Plugins
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Plugins\GitHub
-          label: GitHub
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Plugins\GitHub\Editor
-          label: Editor
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Plugins\GitHub\Editor\x64
-          label: x64
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Plugins\GitHub\Editor\x86
-          label: x86
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Prefabs
-          label: Prefabs
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
         - path: Assets\Scripts
           label: Scripts
           level: 1
@@ -1843,81 +585,9 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Sprites
-          label: Sprites
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Packages
-          label: Packages
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
         - path: ProjectSettings
           label: ProjectSettings
           level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings
-          label: UserSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings\Layouts
-          label: Layouts
-          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1961,42 +631,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: .vscode
-        label: .vscode
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: .vscode\settings.json
-        label: settings.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .vscode\settings.json
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\.vscode\settings.json
-          projectPath: .vscode\settings.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: Assets
         label: Assets
         level: 0
@@ -2015,240 +649,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Animations.meta
-        label: Animations.meta
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Animations.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Animations.meta
-          projectPath: Assets\Animations.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Animations
-        label: Animations
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Animations\Mario.meta
-        label: Mario.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Animations\Mario.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Animations\Mario.meta
-          projectPath: Assets\Animations\Mario.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Animations\Mario
-        label: Mario
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Animations\Mario\Idle.anim
-        label: Idle.anim
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Animations\Mario\Idle.anim
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Animations\Mario\Idle.anim
-          projectPath: Assets\Animations\Mario\Idle.anim
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Animations\Mario\Idle.anim.meta
-        label: Idle.anim.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Animations\Mario\Idle.anim.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Animations\Mario\Idle.anim.meta
-          projectPath: Assets\Animations\Mario\Idle.anim.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Animations\Mario\Jump.anim
-        label: Jump.anim
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Animations\Mario\Jump.anim
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Animations\Mario\Jump.anim
-          projectPath: Assets\Animations\Mario\Jump.anim
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Animations\Mario\Jump.anim.meta
-        label: Jump.anim.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Animations\Mario\Jump.anim.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Animations\Mario\Jump.anim.meta
-          projectPath: Assets\Animations\Mario\Jump.anim.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Animations\Mario\Player.controller
-        label: Player.controller
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Animations\Mario\Player.controller
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Animations\Mario\Player.controller
-          projectPath: Assets\Animations\Mario\Player.controller
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Animations\Mario\Player.controller.meta
-        label: Player.controller.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Animations\Mario\Player.controller.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Animations\Mario\Player.controller.meta
-          projectPath: Assets\Animations\Mario\Player.controller.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Animations\Mario\Walk.anim
-        label: Walk.anim
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Animations\Mario\Walk.anim
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Animations\Mario\Walk.anim
-          projectPath: Assets\Animations\Mario\Walk.anim
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Animations\Mario\Walk.anim.meta
-        label: Walk.anim.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Animations\Mario\Walk.anim.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Animations\Mario\Walk.anim.meta
-          projectPath: Assets\Animations\Mario\Walk.anim.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Levels.meta
-        label: Levels.meta
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Levels.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Levels.meta
-          projectPath: Assets\Levels.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: Assets\Levels
         label: Levels
         level: 1
@@ -2271,7 +671,7 @@ MonoBehaviour:
         label: Level1.unity
         level: 2
         isFolder: 0
-        isContainer: 1
+        isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
@@ -2280,1163 +680,11 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: Assets\Levels\Level1.unity
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Levels\Level1.unity
+          fullPath: C:\Users\irene\DSA-Unity\Assets\Levels\Level1.unity
           projectPath: Assets\Levels\Level1.unity
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Levels\Level1.unity.meta
-        label: Level1.unity.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Levels\Level1.unity.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Levels\Level1.unity.meta
-          projectPath: Assets\Levels\Level1.unity.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins.meta
-        label: Plugins.meta
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins.meta
-          projectPath: Assets\Plugins.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins
-        label: Plugins
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
           indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Plugins\GitHub.meta
-        label: GitHub.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub.meta
-          projectPath: Assets\Plugins\GitHub.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub
-        label: GitHub
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Plugins\GitHub\Editor.meta
-        label: Editor.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor.meta
-          projectPath: Assets\Plugins\GitHub\Editor.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor
-        label: Editor
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-        label: AsyncBridge.Net35.dll
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-          projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-        label: AsyncBridge.Net35.dll.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-        label: big-logo@2x.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\big-logo@2x.png
-          projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-        label: big-logo@2x.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-          projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\credits.txt
-        label: credits.txt
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\credits.txt
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\credits.txt
-          projectPath: Assets\Plugins\GitHub\Editor\credits.txt
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
-        label: credits.txt.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\credits.txt.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\credits.txt.meta
-          projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\eula.txt
-        label: eula.txt
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\eula.txt
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\eula.txt
-          projectPath: Assets\Plugins\GitHub\Editor\eula.txt
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
-        label: eula.txt.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\eula.txt.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\eula.txt.meta
-          projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-        label: ExtensionLoader.cs
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-          projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-        label: ExtensionLoader.cs.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-          projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-        label: GitHub.Api.45.dll
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-        label: GitHub.Api.45.dll.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-        label: GitHub.Api.dll
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-        label: GitHub.Api.dll.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-        label: GitHub.Logging.dll
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-        label: GitHub.Logging.dll.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-        label: GitHub.Unity.45.dll
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-        label: GitHub.Unity.45.dll.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-        label: GitHub.Unity.dll
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-        label: GitHub.Unity.dll.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-        label: GitHub.UnityShim.dll
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-        label: GitHub.UnityShim.dll.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
-        label: libsfw.bundle
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\libsfw.bundle
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\libsfw.bundle
-          projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-        label: libsfw.bundle.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-          projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\libsfw.so
-        label: libsfw.so
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\libsfw.so
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\libsfw.so
-          projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
-        label: libsfw.so.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\libsfw.so.meta
-          projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-        label: Mono.Posix.dll
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-          projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-        label: Mono.Posix.dll.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-        label: QuickGuide.pdf
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-          projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-        label: QuickGuide.pdf.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-          projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-        label: ReadOnlyCollectionsInterfaces.dll
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-          projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-        label: ReadOnlyCollectionsInterfaces.dll.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
-        label: sfw.net.dll
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\sfw.net.dll
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\sfw.net.dll
-          projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-        label: sfw.net.dll.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
-        label: System.Threading.dll
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\System.Threading.dll
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\System.Threading.dll
-          projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-        label: System.Threading.dll.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-        label: UnityAPIWrapper.cs
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-          projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-        label: UnityAPIWrapper.cs.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-          projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\x64.meta
-        label: x64.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\x64.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\x64.meta
-          projectPath: Assets\Plugins\GitHub\Editor\x64.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\x64
-        label: x64
-        level: 4
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-        label: pthreadVC2.dll
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-          projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-        label: pthreadVC2.dll.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-        label: sfw_x64.dll
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-          projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-        label: sfw_x64.dll.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\x86.meta
-        label: x86.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\x86.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\x86.meta
-          projectPath: Assets\Plugins\GitHub\Editor\x86.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\x86
-        label: x86
-        level: 4
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-        label: pthreadVC2.dll
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-          projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-        label: pthreadVC2.dll.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-        label: sfw_x86.dll
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-          projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-        label: sfw_x86.dll.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Prefabs.meta
-        label: Prefabs.meta
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Prefabs.meta
-          projectPath: Assets\Prefabs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Prefabs
-        label: Prefabs
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Prefabs\Ground.prefab
-        label: Ground.prefab
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs\Ground.prefab
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Prefabs\Ground.prefab
-          projectPath: Assets\Prefabs\Ground.prefab
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Prefabs\Ground.prefab.meta
-        label: Ground.prefab.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs\Ground.prefab.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Prefabs\Ground.prefab.meta
-          projectPath: Assets\Prefabs\Ground.prefab.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Prefabs\Player.prefab
-        label: Player.prefab
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs\Player.prefab
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Prefabs\Player.prefab
-          projectPath: Assets\Prefabs\Player.prefab
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Prefabs\Player.prefab.meta
-        label: Player.prefab.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs\Player.prefab.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Prefabs\Player.prefab.meta
-          projectPath: Assets\Prefabs\Player.prefab.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts.meta
-        label: Scripts.meta
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Scripts.meta
-          projectPath: Assets\Scripts.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
+          workTreeStatus: 3
       - path: Assets\Scripts
         label: Scripts
         level: 1
@@ -3459,7 +707,7 @@ MonoBehaviour:
         label: PlayerMovement.cs
         level: 2
         isFolder: 0
-        isContainer: 1
+        isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
@@ -3468,155 +716,11 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: Assets\Scripts\PlayerMovement.cs
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Scripts\PlayerMovement.cs
+          fullPath: C:\Users\irene\DSA-Unity\Assets\Scripts\PlayerMovement.cs
           projectPath: Assets\Scripts\PlayerMovement.cs
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\PlayerMovement.cs.meta
-        label: PlayerMovement.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\PlayerMovement.cs.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Scripts\PlayerMovement.cs.meta
-          projectPath: Assets\Scripts\PlayerMovement.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites.meta
-        label: Sprites.meta
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Sprites.meta
-          projectPath: Assets\Sprites.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites
-        label: Sprites
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
           indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Sprites\Sprites.png
-        label: Sprites.png
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\Sprites.png
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Sprites\Sprites.png
-          projectPath: Assets\Sprites\Sprites.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\Sprites.png.meta
-        label: Sprites.png.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\Sprites.png.meta
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Sprites\Sprites.png.meta
-          projectPath: Assets\Sprites\Sprites.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Packages
-        label: Packages
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Packages\manifest.json
-        label: manifest.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Packages\manifest.json
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Packages\manifest.json
-          projectPath: Packages\manifest.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Packages\packages-lock.json
-        label: packages-lock.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Packages\packages-lock.json
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Packages\packages-lock.json
-          projectPath: Packages\packages-lock.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
+          workTreeStatus: 3
       - path: ProjectSettings
         label: ProjectSettings
         level: 0
@@ -3635,330 +739,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: ProjectSettings\AudioManager.asset
-        label: AudioManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\AudioManager.asset
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\AudioManager.asset
-          projectPath: ProjectSettings\AudioManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\boot.config
-        label: boot.config
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\boot.config
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\boot.config
-          projectPath: ProjectSettings\boot.config
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\ClusterInputManager.asset
-        label: ClusterInputManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\ClusterInputManager.asset
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\ClusterInputManager.asset
-          projectPath: ProjectSettings\ClusterInputManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\DynamicsManager.asset
-        label: DynamicsManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\DynamicsManager.asset
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\DynamicsManager.asset
-          projectPath: ProjectSettings\DynamicsManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\EditorBuildSettings.asset
-        label: EditorBuildSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\EditorBuildSettings.asset
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\EditorBuildSettings.asset
-          projectPath: ProjectSettings\EditorBuildSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\EditorSettings.asset
-        label: EditorSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\EditorSettings.asset
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\EditorSettings.asset
-          projectPath: ProjectSettings\EditorSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\GraphicsSettings.asset
-        label: GraphicsSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\GraphicsSettings.asset
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\GraphicsSettings.asset
-          projectPath: ProjectSettings\GraphicsSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\InputManager.asset
-        label: InputManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\InputManager.asset
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\InputManager.asset
-          projectPath: ProjectSettings\InputManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\MemorySettings.asset
-        label: MemorySettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\MemorySettings.asset
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\MemorySettings.asset
-          projectPath: ProjectSettings\MemorySettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\NavMeshAreas.asset
-        label: NavMeshAreas.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\NavMeshAreas.asset
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\NavMeshAreas.asset
-          projectPath: ProjectSettings\NavMeshAreas.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\NetworkManager.asset
-        label: NetworkManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\NetworkManager.asset
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\NetworkManager.asset
-          projectPath: ProjectSettings\NetworkManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\PackageManagerSettings.asset
-        label: PackageManagerSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\PackageManagerSettings.asset
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\PackageManagerSettings.asset
-          projectPath: ProjectSettings\PackageManagerSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\Physics2DSettings.asset
-        label: Physics2DSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\Physics2DSettings.asset
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\Physics2DSettings.asset
-          projectPath: ProjectSettings\Physics2DSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\PresetManager.asset
-        label: PresetManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\PresetManager.asset
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\PresetManager.asset
-          projectPath: ProjectSettings\PresetManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\ProjectSettings.asset
-        label: ProjectSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\ProjectSettings.asset
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\ProjectSettings.asset
-          projectPath: ProjectSettings\ProjectSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\ProjectVersion.txt
-        label: ProjectVersion.txt
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\ProjectVersion.txt
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\ProjectVersion.txt
-          projectPath: ProjectSettings\ProjectVersion.txt
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\QualitySettings.asset
-        label: QualitySettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\QualitySettings.asset
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\QualitySettings.asset
-          projectPath: ProjectSettings\QualitySettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\SceneTemplateSettings.json
-        label: SceneTemplateSettings.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\SceneTemplateSettings.json
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\SceneTemplateSettings.json
-          projectPath: ProjectSettings\SceneTemplateSettings.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: ProjectSettings\TagManager.asset
         label: TagManager.asset
         level: 1
@@ -3972,826 +752,58 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: ProjectSettings\TagManager.asset
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\TagManager.asset
+          fullPath: C:\Users\irene\DSA-Unity\ProjectSettings\TagManager.asset
           projectPath: ProjectSettings\TagManager.asset
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\TimeManager.asset
-        label: TimeManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\TimeManager.asset
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\TimeManager.asset
-          projectPath: ProjectSettings\TimeManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\UnityConnectSettings.asset
-        label: UnityConnectSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\UnityConnectSettings.asset
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\UnityConnectSettings.asset
-          projectPath: ProjectSettings\UnityConnectSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\VersionControlSettings.asset
-        label: VersionControlSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\VersionControlSettings.asset
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\VersionControlSettings.asset
-          projectPath: ProjectSettings\VersionControlSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\VFXManager.asset
-        label: VFXManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\VFXManager.asset
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\VFXManager.asset
-          projectPath: ProjectSettings\VFXManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\XRSettings.asset
-        label: XRSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\XRSettings.asset
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\XRSettings.asset
-          projectPath: ProjectSettings\XRSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: UserSettings
-        label: UserSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
           indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\EditorUserSettings.asset
-        label: EditorUserSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\EditorUserSettings.asset
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\UserSettings\EditorUserSettings.asset
-          projectPath: UserSettings\EditorUserSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: UserSettings\Layouts
-        label: Layouts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2021.dwlt
-        label: default-2021.dwlt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Layouts\default-2021.dwlt
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\UserSettings\Layouts\default-2021.dwlt
-          projectPath: UserSettings\Layouts\default-2021.dwlt
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
+          workTreeStatus: 3
       selectedNode:
-        path: .vscode\settings.json
-        label: settings.json
-        level: 1
+        path: 
+        label: 
+        level: 0
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
-        treeIsCheckable: 1
+        treeIsCheckable: 0
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: .vscode\settings.json
-          fullPath: C:\Users\adqui\DSA Unity\DSA Unity\.vscode\settings.json
-          projectPath: .vscode\settings.json
+          path: 
+          fullPath: 
+          projectPath: 
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
+          indexStatus: 0
+          workTreeStatus: 0
     gitStatusEntries:
-    - path: .vscode\settings.json
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\.vscode\settings.json
-      projectPath: .vscode\settings.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Animations.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Animations.meta
-      projectPath: Assets\Animations.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Animations\Mario.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Animations\Mario.meta
-      projectPath: Assets\Animations\Mario.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Animations\Mario\Idle.anim
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Animations\Mario\Idle.anim
-      projectPath: Assets\Animations\Mario\Idle.anim
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Animations\Mario\Idle.anim.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Animations\Mario\Idle.anim.meta
-      projectPath: Assets\Animations\Mario\Idle.anim.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Animations\Mario\Jump.anim
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Animations\Mario\Jump.anim
-      projectPath: Assets\Animations\Mario\Jump.anim
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Animations\Mario\Jump.anim.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Animations\Mario\Jump.anim.meta
-      projectPath: Assets\Animations\Mario\Jump.anim.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Animations\Mario\Player.controller
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Animations\Mario\Player.controller
-      projectPath: Assets\Animations\Mario\Player.controller
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Animations\Mario\Player.controller.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Animations\Mario\Player.controller.meta
-      projectPath: Assets\Animations\Mario\Player.controller.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Animations\Mario\Walk.anim
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Animations\Mario\Walk.anim
-      projectPath: Assets\Animations\Mario\Walk.anim
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Animations\Mario\Walk.anim.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Animations\Mario\Walk.anim.meta
-      projectPath: Assets\Animations\Mario\Walk.anim.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Levels.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Levels.meta
-      projectPath: Assets\Levels.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
     - path: Assets\Levels\Level1.unity
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Levels\Level1.unity
+      fullPath: C:\Users\irene\DSA-Unity\Assets\Levels\Level1.unity
       projectPath: Assets\Levels\Level1.unity
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Levels\Level1.unity.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Levels\Level1.unity.meta
-      projectPath: Assets\Levels\Level1.unity.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins.meta
-      projectPath: Assets\Plugins.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub.meta
-      projectPath: Assets\Plugins\GitHub.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor.meta
-      projectPath: Assets\Plugins\GitHub\Editor.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\big-logo@2x.png
-      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\credits.txt
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\credits.txt
-      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\credits.txt.meta
-      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\eula.txt
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\eula.txt
-      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\eula.txt.meta
-      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\libsfw.bundle
-      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\libsfw.so
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\libsfw.so
-      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\libsfw.so.meta
-      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\sfw.net.dll
-      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\System.Threading.dll
-      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x64.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\x64.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x86.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\x86.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Prefabs.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Prefabs.meta
-      projectPath: Assets\Prefabs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Prefabs\Ground.prefab
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Prefabs\Ground.prefab
-      projectPath: Assets\Prefabs\Ground.prefab
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Prefabs\Ground.prefab.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Prefabs\Ground.prefab.meta
-      projectPath: Assets\Prefabs\Ground.prefab.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Prefabs\Player.prefab
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Prefabs\Player.prefab
-      projectPath: Assets\Prefabs\Player.prefab
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Prefabs\Player.prefab.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Prefabs\Player.prefab.meta
-      projectPath: Assets\Prefabs\Player.prefab.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Scripts.meta
-      projectPath: Assets\Scripts.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
+      indexStatus: 0
+      workTreeStatus: 3
     - path: Assets\Scripts\PlayerMovement.cs
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Scripts\PlayerMovement.cs
+      fullPath: C:\Users\irene\DSA-Unity\Assets\Scripts\PlayerMovement.cs
       projectPath: Assets\Scripts\PlayerMovement.cs
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\PlayerMovement.cs.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Scripts\PlayerMovement.cs.meta
-      projectPath: Assets\Scripts\PlayerMovement.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Sprites.meta
-      projectPath: Assets\Sprites.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\Sprites.png
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Sprites\Sprites.png
-      projectPath: Assets\Sprites\Sprites.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\Sprites.png.meta
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Assets\Sprites\Sprites.png.meta
-      projectPath: Assets\Sprites\Sprites.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Packages\manifest.json
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Packages\manifest.json
-      projectPath: Packages\manifest.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Packages\packages-lock.json
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\Packages\packages-lock.json
-      projectPath: Packages\packages-lock.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\AudioManager.asset
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\AudioManager.asset
-      projectPath: ProjectSettings\AudioManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\boot.config
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\boot.config
-      projectPath: ProjectSettings\boot.config
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\ClusterInputManager.asset
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\ClusterInputManager.asset
-      projectPath: ProjectSettings\ClusterInputManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\DynamicsManager.asset
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\DynamicsManager.asset
-      projectPath: ProjectSettings\DynamicsManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\EditorBuildSettings.asset
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\EditorBuildSettings.asset
-      projectPath: ProjectSettings\EditorBuildSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\EditorSettings.asset
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\EditorSettings.asset
-      projectPath: ProjectSettings\EditorSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\GraphicsSettings.asset
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\GraphicsSettings.asset
-      projectPath: ProjectSettings\GraphicsSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\InputManager.asset
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\InputManager.asset
-      projectPath: ProjectSettings\InputManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\MemorySettings.asset
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\MemorySettings.asset
-      projectPath: ProjectSettings\MemorySettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\NavMeshAreas.asset
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\NavMeshAreas.asset
-      projectPath: ProjectSettings\NavMeshAreas.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\NetworkManager.asset
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\NetworkManager.asset
-      projectPath: ProjectSettings\NetworkManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\PackageManagerSettings.asset
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\PackageManagerSettings.asset
-      projectPath: ProjectSettings\PackageManagerSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\Physics2DSettings.asset
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\Physics2DSettings.asset
-      projectPath: ProjectSettings\Physics2DSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\PresetManager.asset
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\PresetManager.asset
-      projectPath: ProjectSettings\PresetManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\ProjectSettings.asset
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\ProjectSettings.asset
-      projectPath: ProjectSettings\ProjectSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\ProjectVersion.txt
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\ProjectVersion.txt
-      projectPath: ProjectSettings\ProjectVersion.txt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\QualitySettings.asset
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\QualitySettings.asset
-      projectPath: ProjectSettings\QualitySettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\SceneTemplateSettings.json
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\SceneTemplateSettings.json
-      projectPath: ProjectSettings\SceneTemplateSettings.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
+      indexStatus: 0
+      workTreeStatus: 3
     - path: ProjectSettings\TagManager.asset
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\TagManager.asset
+      fullPath: C:\Users\irene\DSA-Unity\ProjectSettings\TagManager.asset
       projectPath: ProjectSettings\TagManager.asset
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\TimeManager.asset
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\TimeManager.asset
-      projectPath: ProjectSettings\TimeManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\UnityConnectSettings.asset
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\UnityConnectSettings.asset
-      projectPath: ProjectSettings\UnityConnectSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\VersionControlSettings.asset
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\VersionControlSettings.asset
-      projectPath: ProjectSettings\VersionControlSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\VFXManager.asset
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\VFXManager.asset
-      projectPath: ProjectSettings\VFXManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\XRSettings.asset
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\ProjectSettings\XRSettings.asset
-      projectPath: ProjectSettings\XRSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\EditorUserSettings.asset
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\UserSettings\EditorUserSettings.asset
-      projectPath: UserSettings\EditorUserSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\Layouts\default-2021.dwlt
-      fullPath: C:\Users\adqui\DSA Unity\DSA Unity\UserSettings\Layouts\default-2021.dwlt
-      projectPath: UserSettings\Layouts\default-2021.dwlt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    changedFilesText: 104 changed files
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 3 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2022-05-31T17:33:06.822+02:00
+      updatedTimeString: 2022-06-01T13:39:08.288+02:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2022-05-31T17:33:39.770+02:00
+      updatedTimeString: 2022-06-01T13:41:04.978+02:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2022-06-01T13:22:48.431+02:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -4991,30 +1003,30 @@ MonoBehaviour:
       m_Text: Release Lock (forced)
       m_Image: {fileID: 0}
       m_Tooltip: 
-  hasRemote: 0
-  currentRemoteName: 
-  currentBranch: master
-  currentRemoteUrl: No remote configured
+  hasRemote: 1
+  currentRemoteName: origin
+  currentBranch: main
+  currentRemoteUrl: https://github.com/ad-qu/DSA-Unity.git
   statusAhead: 0
   statusBehind: 0
   hasItemsToCommit: 1
-  isTrackingRemoteBranch: 0
+  isTrackingRemoteBranch: 1
   currentBranchContent:
-    m_Text: master
+    m_Text: main
     m_Image: {fileID: 0}
     m_Tooltip: Active branch
   currentRemoteUrlContent:
-    m_Text: No remote configured
+    m_Text: https://github.com/ad-qu/DSA-Unity.git
     m_Image: {fileID: 0}
-    m_Tooltip: Add a remote in the Settings tab
+    m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2022-05-31T17:33:06.822+02:00
+    updatedTimeString: 2022-06-01T12:49:35.443+02:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2022-05-31T17:31:59.459+02:00
+    updatedTimeString: 2022-06-01T12:49:35.547+02:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2022-05-31T17:33:39.770+02:00
+    updatedTimeString: 2022-06-01T13:04:15.673+02:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -5054,7 +1066,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Animator
-    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
@@ -5118,7 +1130,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Animation
-    m_Image: {fileID: -8166618308981325432, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -3237396543322336831, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
@@ -5132,7 +1144,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 24086
+  m_LastSelectedObjectID: -1256
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -5149,14 +1161,14 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 449
-    width: 1084
-    height: 238
+    x: -4
+    y: 512.8
+    width: 1213.4
+    height: 277.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -5174,22 +1186,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\adqui\DSA Unity\DSA Unity
+  m_LastProjectPath: C:\Users\irene\DSA-Unity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 385f0000
-    m_LastClickedID: 24376
-    m_ExpandedIDs: 00000000385f000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: 745f0000
+    m_LastClickedID: 24436
+    m_ExpandedIDs: 000000006a5f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -5217,7 +1229,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000385f0000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -5244,7 +1256,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000c4620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -5289,14 +1301,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1085
-    y: 73
-    width: 280
-    height: 614
+    x: 1210.4
+    y: 80.8
+    width: 320.59998
+    height: 709.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -5330,14 +1342,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 73
-    width: 258
-    height: 355
+    x: -4
+    y: 80.8
+    width: 290.2
+    height: 411
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -5345,9 +1357,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 60210000
       m_LastClickedID: 0
-      m_ExpandedIDs: 2efbffff
+      m_ExpandedIDs: 1afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -5387,14 +1399,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 259
-    y: 73
-    width: 824
-    height: 355
+    x: 287.2
+    y: 80.8
+    width: 921.2
+    height: 411
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -5405,7 +1417,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -101, y: -26}
+      snapOffsetDelta: {x: -100, y: -25.600006}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -5618,9 +1630,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.13031775, y: -0.47561717, z: -0.060810596}
+    m_Target: {x: -0.57199883, y: -0.6038545, z: -0.04211597}
     speed: 2
-    m_Value: {x: 0.13031775, y: -0.47561717, z: -0.060810596}
+    m_Value: {x: -0.57199883, y: -0.6038545, z: -0.04211597}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -5671,9 +1683,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.7119493
+    m_Target: 5.216443
     speed: 2
-    m_Value: 5.7119493
+    m_Value: 5.216443
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -5707,6 +1719,34 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 629
+    width: 1217
+    height: 362
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -5714,25 +1754,27 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 259
-    y: 73
-    width: 824
-    height: 355
+    x: 287.2
+    y: 80.8
+    width: 921.2
+    height: 411
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
+  m_SerializedViewNames:
+  - UnityEditor.DeviceSimulation.SimulatorWindow
+  m_SerializedViewValues:
+  - C:\Users\irene\DSA-Unity\Library\PlayModeViewStates\850964beb9e461a4eba3ca89ad7ef673
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 824, y: 334}
+  m_TargetSize: {x: 921.2, y: 390}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -5747,10 +1789,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -412
-    m_HBaseRangeMax: 412
-    m_VBaseRangeMin: -177.5
-    m_VBaseRangeMax: 177.5
+    m_HBaseRangeMin: -368.48
+    m_HBaseRangeMax: 368.48
+    m_VBaseRangeMin: -156
+    m_VBaseRangeMax: 156
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -5767,54 +1809,26 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
-      width: 824
-      height: 355
+      y: 21
+      width: 921.2
+      height: 390
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 412, y: 177.5}
+    m_Translation: {x: 460.6, y: 195}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -412
-      y: -177.5
-      width: 824
-      height: 355
+      x: -460.6
+      y: -195
+      width: 921.2
+      height: 390
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 824, y: 355}
+  m_LastWindowPixelSize: {x: 1151.5, y: 513.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &20
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Console
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 629
-    width: 1217
-    height: 362
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
