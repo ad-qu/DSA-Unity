@@ -73,7 +73,6 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-
     //to wall jumping
      private bool isGrounded() 
     {
@@ -85,5 +84,9 @@ public class PlayerMovement : MonoBehaviour
     {
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, new Vector2(transform.localScale.x, 0), 0.1f, wallLayer);
         return raycastHit.collider != null; //si esta en el cielo
+    }
+    public bool canAttack()
+    {
+        return horizontalInput == 0 && isGrounded() && !onWall();
     }
 }
