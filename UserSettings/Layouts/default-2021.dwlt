@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 794
-    y: 187
-    width: 958
-    height: 973
+    x: 0
+    y: 43
+    width: 1920
+    height: 989
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -43,12 +43,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 958
-    height: 923
+    width: 1920
+    height: 939
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 47
+  controlID: 19
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,10 +64,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 673
+    x: 1349
     y: 0
-    width: 285
-    height: 923
+    width: 571
+    height: 939
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
@@ -93,8 +93,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 161
-    height: 545
+    width: 323
+    height: 554
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
@@ -118,9 +118,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 545
-    width: 673
-    height: 378
+    y: 554
+    width: 1349
+    height: 385
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 15}
@@ -151,8 +151,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 958
-    height: 973
+    width: 1920
+    height: 989
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -176,7 +176,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 958
+    width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -197,8 +197,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 953
-    width: 958
+    y: 969
+    width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -221,12 +221,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 673
-    height: 923
+    width: 1349
+    height: 939
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 48
+  controlID: 65
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -246,12 +246,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 673
-    height: 545
+    width: 1349
+    height: 554
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 101
+  controlID: 66
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -267,10 +267,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 161
+    x: 323
     y: 0
-    width: 512
-    height: 545
+    width: 1026
+    height: 554
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 18}
@@ -299,10 +299,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2804
-    y: 105
-    width: 317
-    height: 694
+    x: 1349
+    y: 73
+    width: 570
+    height: 918
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -399,7 +399,7 @@ MonoBehaviour:
     localBranches: []
     remoteBranches: []
   changesView:
-    currentBranchHasUpdate: 1
+    currentBranchHasUpdate: 0
     currentStatusEntriesHasUpdate: 1
     currentLocksHasUpdate: 1
     commitBody: 
@@ -408,11 +408,449 @@ MonoBehaviour:
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys: []
-        values: []
+        keys:
+        - 00000000000000001000000000000000
+        - 131a6b21c8605f84396be9f6751fb6e3
+        - a600f45ac8c1f064ba69670d58eed655
+        - fbd82be732cc284439cf2972d65549bf
+        - 6d807d80426aca04492249dba365c5c7
+        - 8bf04f9db4ed0684b8010826926794ac
+        - f90460a258633c646b1738e93124cc74
+        - 7e07d597a4f96db4ead7901748a74d5a
+        - b0475c5ff28bc2741a79c2b92996f5e0
+        - ba4568867396f184db7b511def334801
+        - c1896f65d178a494eb8c0abb3ae282f9
+        - 2e6abc2d5606bcb469b0cbdb0f5278cf
+        - 50ab7884ce1db2648bbe2f5d18c60222
+        - 87bb957c3625a49439edafec972fe7b7
+        - deb188a5a43daab4181c13948f2a2b87
+        - 45739ea66af1c9d4aa83bb0b9bf6d654
+        - bef11ee2ea83d984eacb47891b84a704
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Levels
+          label: Levels
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Levels\Level2.unity
+          label: Level2.unity
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Levels\Level2.unity
+            fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Levels\Level2.unity
+            projectPath: Assets\Levels\Level2.unity
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs
+          label: Prefabs
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Prefabs\BasicWall.prefab
+          label: BasicWall.prefab
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\BasicWall.prefab
+            fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\BasicWall.prefab
+            projectPath: Assets\Prefabs\BasicWall.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\GameManager.prefab
+          label: GameManager.prefab
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\GameManager.prefab
+            fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\GameManager.prefab
+            projectPath: Assets\Prefabs\GameManager.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Ground.prefab
+          label: Ground.prefab
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Ground.prefab
+            fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\Ground.prefab
+            projectPath: Assets\Prefabs\Ground.prefab
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Prefabs\Main Camera.prefab
+          label: Main Camera.prefab
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Main Camera.prefab
+            fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\Main
+              Camera.prefab
+            projectPath: Assets\Prefabs\Main Camera.prefab
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Prefabs\Player.prefab
+          label: Player.prefab
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Player.prefab
+            fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\Player.prefab
+            projectPath: Assets\Prefabs\Player.prefab
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Prefabs\Sky.prefab
+          label: Sky.prefab
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Sky.prefab
+            fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\Sky.prefab
+            projectPath: Assets\Prefabs\Sky.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Wall1.prefab
+          label: Wall1.prefab
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Wall1.prefab
+            fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\Wall1.prefab
+            projectPath: Assets\Prefabs\Wall1.prefab
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Prefabs\Wall2.prefab
+          label: Wall2.prefab
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Wall2.prefab
+            fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\Wall2.prefab
+            projectPath: Assets\Prefabs\Wall2.prefab
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Prefabs\Wall3.prefab
+          label: Wall3.prefab
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Wall3.prefab
+            fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\Wall3.prefab
+            projectPath: Assets\Prefabs\Wall3.prefab
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scripts\BoardManager.cs
+          label: BoardManager.cs
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\BoardManager.cs
+            fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Scripts\BoardManager.cs
+            projectPath: Assets\Scripts\BoardManager.cs
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Scripts\GameManager.cs
+          label: GameManager.cs
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\GameManager.cs
+            fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Scripts\GameManager.cs
+            projectPath: Assets\Scripts\GameManager.cs
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Sprites
+          label: Sprites
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
       folders:
-        keys: []
-        values: []
+        keys:
+        - Assets
+        - Assets\Levels
+        - Assets\Prefabs
+        - Assets\Scripts
+        - Assets\Sprites
+        - UserSettings
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Levels
+          label: Levels
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Prefabs
+          label: Prefabs
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Sprites
+          label: Sprites
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings
+          label: UserSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -441,6 +879,511 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: .vsconfig
+        label: .vsconfig
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .vsconfig
+          fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\.vsconfig
+          projectPath: .vsconfig
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Levels
+        label: Levels
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Levels\Level2.unity
+        label: Level2.unity
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Levels\Level2.unity
+          fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Levels\Level2.unity
+          projectPath: Assets\Levels\Level2.unity
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Levels\Level2.unity.meta
+        label: Level2.unity.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Levels\Level2.unity.meta
+          fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Levels\Level2.unity.meta
+          projectPath: Assets\Levels\Level2.unity.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs
+        label: Prefabs
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Prefabs\BasicWall.prefab
+        label: BasicWall.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\BasicWall.prefab
+          fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\BasicWall.prefab
+          projectPath: Assets\Prefabs\BasicWall.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\BasicWall.prefab.meta
+        label: BasicWall.prefab.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\BasicWall.prefab.meta
+          fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\BasicWall.prefab.meta
+          projectPath: Assets\Prefabs\BasicWall.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\GameManager.prefab
+        label: GameManager.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\GameManager.prefab
+          fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\GameManager.prefab
+          projectPath: Assets\Prefabs\GameManager.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\GameManager.prefab.meta
+        label: GameManager.prefab.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\GameManager.prefab.meta
+          fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\GameManager.prefab.meta
+          projectPath: Assets\Prefabs\GameManager.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Ground.prefab
+        label: Ground.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Ground.prefab
+          fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\Ground.prefab
+          projectPath: Assets\Prefabs\Ground.prefab
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Prefabs\Main Camera.prefab
+        label: Main Camera.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Main Camera.prefab
+          fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\Main
+            Camera.prefab
+          projectPath: Assets\Prefabs\Main Camera.prefab
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Prefabs\Player.prefab
+        label: Player.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Player.prefab
+          fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\Player.prefab
+          projectPath: Assets\Prefabs\Player.prefab
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Prefabs\Sky.prefab
+        label: Sky.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Sky.prefab
+          fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\Sky.prefab
+          projectPath: Assets\Prefabs\Sky.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Sky.prefab.meta
+        label: Sky.prefab.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Sky.prefab.meta
+          fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\Sky.prefab.meta
+          projectPath: Assets\Prefabs\Sky.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Wall1.prefab
+        label: Wall1.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Wall1.prefab
+          fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\Wall1.prefab
+          projectPath: Assets\Prefabs\Wall1.prefab
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Prefabs\Wall2.prefab
+        label: Wall2.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Wall2.prefab
+          fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\Wall2.prefab
+          projectPath: Assets\Prefabs\Wall2.prefab
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Prefabs\Wall3.prefab
+        label: Wall3.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Wall3.prefab
+          fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\Wall3.prefab
+          projectPath: Assets\Prefabs\Wall3.prefab
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Scripts
+        label: Scripts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scripts\BoardManager.cs
+        label: BoardManager.cs
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\BoardManager.cs
+          fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Scripts\BoardManager.cs
+          projectPath: Assets\Scripts\BoardManager.cs
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Scripts\GameManager.cs
+        label: GameManager.cs
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\GameManager.cs
+          fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Scripts\GameManager.cs
+          projectPath: Assets\Scripts\GameManager.cs
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Sprites
+        label: Sprites
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Sprites\Sprite_mario_combat.png.meta
+        label: Sprite_mario_combat.png.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Sprites\Sprite_mario_combat.png.meta
+          fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Sprites\Sprite_mario_combat.png.meta
+          projectPath: Assets\Sprites\Sprite_mario_combat.png.meta
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Sprites\Sprite_mario_wall.png.meta
+        label: Sprite_mario_wall.png.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Sprites\Sprite_mario_wall.png.meta
+          fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Sprites\Sprite_mario_wall.png.meta
+          projectPath: Assets\Sprites\Sprite_mario_wall.png.meta
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Sprites\Sprite_wall.png.meta
+        label: Sprite_wall.png.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Sprites\Sprite_wall.png.meta
+          fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Sprites\Sprite_wall.png.meta
+          projectPath: Assets\Sprites\Sprite_wall.png.meta
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Sprites\Sprites.png.meta
+        label: Sprites.png.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Sprites\Sprites.png.meta
+          fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Sprites\Sprites.png.meta
+          projectPath: Assets\Sprites\Sprites.png.meta
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: UserSettings
+        label: UserSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        label: EditorUserSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\EditorUserSettings.asset
+          fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -460,16 +1403,148 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    gitStatusEntries: []
-    changedFilesText: No changed files
+    gitStatusEntries:
+    - path: .vsconfig
+      fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\.vsconfig
+      projectPath: .vsconfig
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Levels\Level2.unity
+      fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Levels\Level2.unity
+      projectPath: Assets\Levels\Level2.unity
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Levels\Level2.unity.meta
+      fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Levels\Level2.unity.meta
+      projectPath: Assets\Levels\Level2.unity.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\BasicWall.prefab
+      fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\BasicWall.prefab
+      projectPath: Assets\Prefabs\BasicWall.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\BasicWall.prefab.meta
+      fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\BasicWall.prefab.meta
+      projectPath: Assets\Prefabs\BasicWall.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\GameManager.prefab
+      fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\GameManager.prefab
+      projectPath: Assets\Prefabs\GameManager.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\GameManager.prefab.meta
+      fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\GameManager.prefab.meta
+      projectPath: Assets\Prefabs\GameManager.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Ground.prefab
+      fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\Ground.prefab
+      projectPath: Assets\Prefabs\Ground.prefab
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Prefabs\Main Camera.prefab
+      fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\Main Camera.prefab
+      projectPath: Assets\Prefabs\Main Camera.prefab
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Prefabs\Player.prefab
+      fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\Player.prefab
+      projectPath: Assets\Prefabs\Player.prefab
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Prefabs\Sky.prefab
+      fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\Sky.prefab
+      projectPath: Assets\Prefabs\Sky.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Sky.prefab.meta
+      fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\Sky.prefab.meta
+      projectPath: Assets\Prefabs\Sky.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Wall1.prefab
+      fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\Wall1.prefab
+      projectPath: Assets\Prefabs\Wall1.prefab
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Prefabs\Wall2.prefab
+      fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\Wall2.prefab
+      projectPath: Assets\Prefabs\Wall2.prefab
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Prefabs\Wall3.prefab
+      fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Prefabs\Wall3.prefab
+      projectPath: Assets\Prefabs\Wall3.prefab
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scripts\BoardManager.cs
+      fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Scripts\BoardManager.cs
+      projectPath: Assets\Scripts\BoardManager.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scripts\GameManager.cs
+      fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Scripts\GameManager.cs
+      projectPath: Assets\Scripts\GameManager.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Sprites\Sprite_mario_combat.png.meta
+      fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Sprites\Sprite_mario_combat.png.meta
+      projectPath: Assets\Sprites\Sprite_mario_combat.png.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Sprites\Sprite_mario_wall.png.meta
+      fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Sprites\Sprite_mario_wall.png.meta
+      projectPath: Assets\Sprites\Sprite_mario_wall.png.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Sprites\Sprite_wall.png.meta
+      fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Sprites\Sprite_wall.png.meta
+      projectPath: Assets\Sprites\Sprite_wall.png.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Sprites\Sprites.png.meta
+      fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\Assets\Sprites\Sprites.png.meta
+      projectPath: Assets\Sprites\Sprites.png.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: D:\Aplicaciones\Unity\Projects\DSA-Unity\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 22 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2022-06-02T18:04:25.073+02:00
+      updatedTimeString: 2022-06-06T23:15:27.039+02:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2022-06-02T18:04:31.967+02:00
+      updatedTimeString: 2022-06-06T23:18:03.898+02:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2022-06-06T23:17:33.258+02:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -675,7 +1750,7 @@ MonoBehaviour:
   currentRemoteUrl: https://github.com/ad-qu/DSA-Unity.git
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 0
+  hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: main
@@ -692,7 +1767,7 @@ MonoBehaviour:
     updatedTimeString: 2022-06-01T16:13:24.137+02:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2022-06-01T16:16:23.193+02:00
+    updatedTimeString: 2022-06-06T23:16:46.650+02:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -710,8 +1785,8 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0.33333334
-  repositoryProgressMessage: Listing changed files...
+  repositoryProgressValue: 0
+  repositoryProgressMessage: 
   appManagerProgressValue: 1
   appManagerProgressMessage: Initialized
   connections: []
@@ -810,7 +1885,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -1256
+  m_LastSelectedObjectID: -16836
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -832,9 +1907,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 564
-    width: 672
-    height: 357
+    y: 627
+    width: 1348
+    height: 364
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -852,22 +1927,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Aplicaciones\Unity\Projects\DSA-Unity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ba900000
-    m_LastClickedID: 37050
-    m_ExpandedIDs: 00000000ba90000000ca9a3b
+    m_SelectedIDs: 1c910000
+    m_LastClickedID: 37148
+    m_ExpandedIDs: 000000001491000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -922,7 +1997,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000c4620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -971,10 +2046,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 674
-    y: 19
-    width: 284
-    height: 902
+    x: 1349
+    y: 73
+    width: 570
+    height: 918
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -986,7 +2061,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 66
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -1013,9 +2088,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 19
-    width: 160
-    height: 524
+    y: 73
+    width: 322
+    height: 533
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1023,9 +2098,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: b8c5ffff
+      m_SelectedIDs: a611ffff
+      m_LastClickedID: -61018
+      m_ExpandedIDs: 70c5ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1069,10 +2144,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 162
-    y: 19
-    width: 510
-    height: 524
+    x: 323
+    y: 73
+    width: 1024
+    height: 533
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1296,9 +2371,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.5397086, y: -0.051705793, z: -0.04211597}
+    m_Target: {x: 6.578467, y: 8.745578, z: -0.12614304}
     speed: 2
-    m_Value: {x: -3.5397086, y: -0.051705793, z: -0.04211597}
+    m_Value: {x: 6.578467, y: 8.745578, z: -0.12614304}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1349,9 +2424,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.216443
+    m_Target: 8.324308
     speed: 2
-    m_Value: 5.216443
+    m_Value: 8.324308
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1424,10 +2499,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1891
-    y: 105
-    width: 911
-    height: 401
+    x: 323
+    y: 73
+    width: 1024
+    height: 533
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1440,7 +2515,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 911, y: 380}
+  m_TargetSize: {x: 1024, y: 512}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1455,10 +2530,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -455.5
-    m_HBaseRangeMax: 455.5
-    m_VBaseRangeMin: -200.5
-    m_VBaseRangeMax: 200.5
+    m_HBaseRangeMin: -512
+    m_HBaseRangeMax: 512
+    m_VBaseRangeMin: -256
+    m_VBaseRangeMax: 256
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1475,24 +2550,24 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
-      width: 911
-      height: 401
+      y: 21
+      width: 1024
+      height: 512
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 455.5, y: 200.5}
+    m_Translation: {x: 512, y: 256}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -455.5
-      y: -200.5
-      width: 911
-      height: 401
+      x: -512
+      y: -256
+      width: 1024
+      height: 512
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 911, y: 401}
+  m_LastWindowPixelSize: {x: 1024, y: 533}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
