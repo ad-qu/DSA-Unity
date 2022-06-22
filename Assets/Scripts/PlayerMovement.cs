@@ -10,7 +10,8 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
     private BoxCollider2D boxCollider;
     private float wallJumpCoolDown;
-    private float horizontalInput; 
+    private float horizontalInput;
+    public static int numberCoins;
 
     private void Awake() {
         
@@ -21,7 +22,9 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void Update() {
-        
+
+        Debug.Log(numberCoins);
+
         horizontalInput = Input.GetAxis("Horizontal");
 
         //Flip player when moving left or right
@@ -60,13 +63,15 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (onWall() && !isGrounded())
         {
-            if(horizontalInput == 0)
+            if (horizontalInput == 0)
             {
                 body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 10, 0);
                 transform.localScale = new Vector3(-Mathf.Sign(transform.localScale.x), transform.localScale.y, transform.localScale.z);//?? min 16:47
             }
             else
+            {
                 body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 3, 6);
+            }
 
             wallJumpCoolDown = 0;
         }
