@@ -61,7 +61,17 @@ MonoBehaviour:
   columns: 20
   sky: {fileID: 7374472843094676835, guid: ba4568867396f184db7b511def334801, type: 3}
   ground: {fileID: 8840981348716991351, guid: f90460a258633c646b1738e93124cc74, type: 3}
+  basicWall: {fileID: 0}
+  brick: {fileID: 0}
   wall:
   - {fileID: 134526672276108163, guid: c1896f65d178a494eb8c0abb3ae282f9, type: 3}
   - {fileID: 8341635443709459419, guid: 2e6abc2d5606bcb469b0cbdb0f5278cf, type: 3}
   - {fileID: 1316482123182093584, guid: 50ab7884ce1db2648bbe2f5d18c60222, type: 3}
+  smallBush:
+  - {fileID: 0}
+  - {fileID: 0}
+  bigBush:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

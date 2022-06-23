@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &1614753634 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1658276915544895503, guid: 8bf04f9db4ed0684b8010826926794ac, type: 3}
+  m_PrefabInstance: {fileID: 602100356473033825}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &602100356473033825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -186,6 +191,94 @@ PrefabInstance:
       propertyPath: basicWall
       value: 
       objectReference: {fileID: 6545602378835930361, guid: 6d807d80426aca04492249dba365c5c7, type: 3}
+    - target: {fileID: 5723531493300967537, guid: 8bf04f9db4ed0684b8010826926794ac, type: 3}
+      propertyPath: wall.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5723531493300967537, guid: 8bf04f9db4ed0684b8010826926794ac, type: 3}
+      propertyPath: bigBush.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5723531493300967537, guid: 8bf04f9db4ed0684b8010826926794ac, type: 3}
+      propertyPath: smallBush.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5723531493300967537, guid: 8bf04f9db4ed0684b8010826926794ac, type: 3}
+      propertyPath: bigBush.Array.data[0]
+      value: 
+      objectReference: {fileID: 7374472843094676835, guid: b8bc7b8c3683d1d40959661287f75121, type: 3}
+    - target: {fileID: 5723531493300967537, guid: 8bf04f9db4ed0684b8010826926794ac, type: 3}
+      propertyPath: bigBush.Array.data[1]
+      value: 
+      objectReference: {fileID: 7374472843094676835, guid: 17b44233a810b68499589a87ef522d73, type: 3}
+    - target: {fileID: 5723531493300967537, guid: 8bf04f9db4ed0684b8010826926794ac, type: 3}
+      propertyPath: bigBush.Array.data[2]
+      value: 
+      objectReference: {fileID: 7374472843094676835, guid: 41db65c95580b4c459db998219f53b6d, type: 3}
+    - target: {fileID: 5723531493300967537, guid: 8bf04f9db4ed0684b8010826926794ac, type: 3}
+      propertyPath: bigBush.Array.data[3]
+      value: 
+      objectReference: {fileID: 7374472843094676835, guid: c2a8fcf21d7d5814381d179129c91c50, type: 3}
+    - target: {fileID: 5723531493300967537, guid: 8bf04f9db4ed0684b8010826926794ac, type: 3}
+      propertyPath: bigBush.Array.data[4]
+      value: 
+      objectReference: {fileID: 1614753634}
+    - target: {fileID: 5723531493300967537, guid: 8bf04f9db4ed0684b8010826926794ac, type: 3}
+      propertyPath: bigBush.Array.data[5]
+      value: 
+      objectReference: {fileID: 7374472843094676835, guid: c2a8fcf21d7d5814381d179129c91c50, type: 3}
+    - target: {fileID: 5723531493300967537, guid: 8bf04f9db4ed0684b8010826926794ac, type: 3}
+      propertyPath: bigBush.Array.data[6]
+      value: 
+      objectReference: {fileID: 7374472843094676835, guid: b8bc7b8c3683d1d40959661287f75121, type: 3}
+    - target: {fileID: 5723531493300967537, guid: 8bf04f9db4ed0684b8010826926794ac, type: 3}
+      propertyPath: bigBush.Array.data[7]
+      value: 
+      objectReference: {fileID: 7374472843094676835, guid: 17b44233a810b68499589a87ef522d73, type: 3}
+    - target: {fileID: 5723531493300967537, guid: 8bf04f9db4ed0684b8010826926794ac, type: 3}
+      propertyPath: bigBush.Array.data[8]
+      value: 
+      objectReference: {fileID: 7374472843094676835, guid: 41db65c95580b4c459db998219f53b6d, type: 3}
+    - target: {fileID: 5723531493300967537, guid: 8bf04f9db4ed0684b8010826926794ac, type: 3}
+      propertyPath: smallCloud.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5723531493300967537, guid: 8bf04f9db4ed0684b8010826926794ac, type: 3}
+      propertyPath: smallBush.Array.data[0]
+      value: 
+      objectReference: {fileID: 7374472843094676835, guid: 775091488f40e0545884d2cd50693dfa, type: 3}
+    - target: {fileID: 5723531493300967537, guid: 8bf04f9db4ed0684b8010826926794ac, type: 3}
+      propertyPath: smallBush.Array.data[1]
+      value: 
+      objectReference: {fileID: 7374472843094676835, guid: a4caa2352ad081542b084ab4d609b79e, type: 3}
+    - target: {fileID: 5723531493300967537, guid: 8bf04f9db4ed0684b8010826926794ac, type: 3}
+      propertyPath: smallBush.Array.data[2]
+      value: 
+      objectReference: {fileID: 1614753634}
+    - target: {fileID: 5723531493300967537, guid: 8bf04f9db4ed0684b8010826926794ac, type: 3}
+      propertyPath: smallBush.Array.data[3]
+      value: 
+      objectReference: {fileID: 7374472843094676835, guid: 775091488f40e0545884d2cd50693dfa, type: 3}
+    - target: {fileID: 5723531493300967537, guid: 8bf04f9db4ed0684b8010826926794ac, type: 3}
+      propertyPath: smallBush.Array.data[4]
+      value: 
+      objectReference: {fileID: 7374472843094676835, guid: a4caa2352ad081542b084ab4d609b79e, type: 3}
+    - target: {fileID: 5723531493300967537, guid: 8bf04f9db4ed0684b8010826926794ac, type: 3}
+      propertyPath: smallCloud.Array.data[0]
+      value: 
+      objectReference: {fileID: 7374472843094676835, guid: 6565c160abfd39e4396443a194f0188e, type: 3}
+    - target: {fileID: 5723531493300967537, guid: 8bf04f9db4ed0684b8010826926794ac, type: 3}
+      propertyPath: smallCloud.Array.data[1]
+      value: 
+      objectReference: {fileID: 7374472843094676835, guid: 55ed651b83cf764489c55a67e83f7b3f, type: 3}
+    - target: {fileID: 5723531493300967537, guid: 8bf04f9db4ed0684b8010826926794ac, type: 3}
+      propertyPath: smallCloud.Array.data[2]
+      value: 
+      objectReference: {fileID: 7374472843094676835, guid: 36093e4e38317454d94ac99848d6ab75, type: 3}
+    - target: {fileID: 5723531493300967537, guid: 8bf04f9db4ed0684b8010826926794ac, type: 3}
+      propertyPath: smallCloud.Array.data[3]
+      value: 
+      objectReference: {fileID: 7374472843094676835, guid: 2fcf16e163b735f4bb12ca4f616bde21, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bf04f9db4ed0684b8010826926794ac, type: 3}
 --- !u!1 &2714215699533298302 stripped
@@ -267,7 +360,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3619469366393221899, guid: 7e07d597a4f96db4ead7901748a74d5a, type: 3}
       propertyPath: orthographic size
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3619469366393221899, guid: 7e07d597a4f96db4ead7901748a74d5a, type: 3}
       propertyPath: m_BackGroundColor.b

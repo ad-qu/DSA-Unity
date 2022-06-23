@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4007873630788083722}
   - component: {fileID: 9138541672707988175}
   m_Layer: 0
-  m_Name: Sky
+  m_Name: bigBush3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 7374472843094676835}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 11.032834, y: 4.854665, z: -0.16226715}
-  m_LocalScale: {x: 1.01, y: 1.01, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 737679264, guid: b89fed3d6541aa944b917f4cdde9f660, type: 3}
+  m_Sprite: {fileID: -432339237, guid: b89fed3d6541aa944b917f4cdde9f660, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

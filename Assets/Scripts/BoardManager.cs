@@ -22,9 +22,9 @@ public class BoardManager : MonoBehaviour
     public int columns = 20;
 
 
-    public GameObject sky, ground, basicWall;
+    public GameObject sky, ground, basicWall, brick;
 
-    public GameObject[] wall;
+    public GameObject[] wall, smallBush, bigBush, smallCloud;
 
     int i, y;
 
@@ -32,28 +32,39 @@ public class BoardManager : MonoBehaviour
     {
         if (level == 1)
         {
-            Instantiate(ground, new Vector3(0, 0), Quaternion.identity);
-            Instantiate(ground, new Vector3(1, 0), Quaternion.identity);
-            Instantiate(ground, new Vector3(2, 0), Quaternion.identity);
-            Instantiate(ground, new Vector3(3, 0), Quaternion.identity);
-            Instantiate(ground, new Vector3(4, 0), Quaternion.identity);
-            Instantiate(ground, new Vector3(5, 0), Quaternion.identity);
-            Instantiate(ground, new Vector3(6, 0), Quaternion.identity);
-            Instantiate(ground, new Vector3(7, 0), Quaternion.identity);
-            Instantiate(ground, new Vector3(8, 0), Quaternion.identity);
-            Instantiate(ground, new Vector3(9, 0), Quaternion.identity);
-            Instantiate(ground, new Vector3(10, 0), Quaternion.identity);
-            Instantiate(ground, new Vector3(11, 0), Quaternion.identity);
-            Instantiate(ground, new Vector3(12, 0), Quaternion.identity);
-            Instantiate(ground, new Vector3(13, 0), Quaternion.identity);
-            Instantiate(ground, new Vector3(14, 0), Quaternion.identity);
-            Instantiate(ground, new Vector3(15, 0), Quaternion.identity);
-            Instantiate(ground, new Vector3(16, 0), Quaternion.identity);
-            Instantiate(ground, new Vector3(17, 0), Quaternion.identity);
-            Instantiate(ground, new Vector3(18, 0), Quaternion.identity);
-            Instantiate(ground, new Vector3(19, 0), Quaternion.identity);
-            Instantiate(ground, new Vector3(20, 0), Quaternion.identity);
-            Instantiate(ground, new Vector3(21, 0), Quaternion.identity);
+            while (i < 22)
+            {
+                while (y < 15)
+                {
+                    Instantiate(sky, new Vector3(i, y), Quaternion.identity);
+                    y++;
+                }
+
+                y = 0;
+                i++;
+            }
+
+            i = 0; y = -1;
+
+            while (y < 1)
+            {
+                while (i < 22)
+                {
+                    Instantiate(ground, new Vector3(i, y), Quaternion.identity);
+                    i++;
+                }
+
+                i = 0;
+                y++;
+            }
+
+            Instantiate(smallBush[0], new Vector3(2, 1), Quaternion.identity);
+            Instantiate(smallBush[1], new Vector3(3, 1), Quaternion.identity);
+
+            Instantiate(smallCloud[2], new Vector3(4, 5), Quaternion.identity);
+            Instantiate(smallCloud[0], new Vector3(4, 6), Quaternion.identity);
+            Instantiate(smallCloud[3], new Vector3(5, 5), Quaternion.identity);
+            Instantiate(smallCloud[1], new Vector3(5, 6), Quaternion.identity);
 
             Instantiate(wall[0], new Vector3(10, 1), Quaternion.identity);
             Instantiate(wall[1], new Vector3(10, 2), Quaternion.identity);
