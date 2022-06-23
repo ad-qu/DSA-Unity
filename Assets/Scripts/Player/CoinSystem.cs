@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Coins : MonoBehaviour
+public class CoinSystem : MonoBehaviour
 {
     private float coin = 0;
 
@@ -14,7 +14,7 @@ public class Coins : MonoBehaviour
         if(other.transform.tag == "Coins")
         {
             coin++;
-            textCoins.text = "Coins: " + coin.ToString();
+            textCoins.text = coin.ToString();
             Destroy(other.gameObject);
         }
     }
