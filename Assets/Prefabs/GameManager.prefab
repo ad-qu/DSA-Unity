@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1658276915544895503
+--- !u!1 &7961833311084441528
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5046714348460503125}
-  - component: {fileID: 1928960615856081130}
-  - component: {fileID: 5723531493300967537}
+  - component: {fileID: 4572553102256582626}
+  - component: {fileID: 7185621101602789213}
+  - component: {fileID: 3896579832325130182}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -18,13 +18,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5046714348460503125
+--- !u!4 &4572553102256582626
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1658276915544895503}
+  m_GameObject: {fileID: 7961833311084441528}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 11.032834, y: 4.854665, z: -0.16226715}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -33,25 +33,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1928960615856081130
+--- !u!114 &7185621101602789213
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1658276915544895503}
+  m_GameObject: {fileID: 7961833311084441528}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45739ea66af1c9d4aa83bb0b9bf6d654, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5723531493300967537
+--- !u!114 &3896579832325130182
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1658276915544895503}
+  m_GameObject: {fileID: 7961833311084441528}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: deb188a5a43daab4181c13948f2a2b87, type: 3}
@@ -59,19 +59,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rows: 10
   columns: 20
+  basicGoomba: {fileID: 8334611584398495871, guid: a3af201c770f27c4db15cb9eb78edec3, type: 3}
+  kingGoomba: {fileID: 1992598226532045708, guid: cdb8d00893ff6c1429594f22ff8c6f4b, type: 3}
   sky: {fileID: 7374472843094676835, guid: ba4568867396f184db7b511def334801, type: 3}
-  ground: {fileID: 8840981348716991351, guid: f90460a258633c646b1738e93124cc74, type: 3}
-  basicWall: {fileID: 0}
+  ground: {fileID: 1515904807794927253, guid: f90460a258633c646b1738e93124cc74, type: 3}
+  basicWall: {fileID: 6545602378835930361, guid: 6d807d80426aca04492249dba365c5c7, type: 3}
   brick: {fileID: 0}
+  invisibleBlock: {fileID: 5300656358928249564, guid: d00ef58e16f0cd84c8f97941a233990a, type: 3}
   wall:
   - {fileID: 134526672276108163, guid: c1896f65d178a494eb8c0abb3ae282f9, type: 3}
   - {fileID: 8341635443709459419, guid: 2e6abc2d5606bcb469b0cbdb0f5278cf, type: 3}
   - {fileID: 1316482123182093584, guid: 50ab7884ce1db2648bbe2f5d18c60222, type: 3}
   smallBush:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 7374472843094676835, guid: 775091488f40e0545884d2cd50693dfa, type: 3}
+  - {fileID: 7374472843094676835, guid: a4caa2352ad081542b084ab4d609b79e, type: 3}
   bigBush:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 7374472843094676835, guid: b8bc7b8c3683d1d40959661287f75121, type: 3}
+  - {fileID: 7374472843094676835, guid: 17b44233a810b68499589a87ef522d73, type: 3}
+  - {fileID: 7374472843094676835, guid: 41db65c95580b4c459db998219f53b6d, type: 3}
+  - {fileID: 7374472843094676835, guid: c2a8fcf21d7d5814381d179129c91c50, type: 3}
+  smallCloud:
+  - {fileID: 7374472843094676835, guid: 6565c160abfd39e4396443a194f0188e, type: 3}
+  - {fileID: 7374472843094676835, guid: 55ed651b83cf764489c55a67e83f7b3f, type: 3}
+  - {fileID: 7374472843094676835, guid: 36093e4e38317454d94ac99848d6ab75, type: 3}
+  - {fileID: 7374472843094676835, guid: 2fcf16e163b735f4bb12ca4f616bde21, type: 3}
