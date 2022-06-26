@@ -9,6 +9,11 @@ public class CameraMovement : MonoBehaviour
     public float Smoothing;
     public float CameraForward;
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(Target);
+    }
+
     // Update is called once per frame
     void Update()
     {

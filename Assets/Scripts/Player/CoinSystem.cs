@@ -5,9 +5,9 @@ using TMPro;
 
 public class CoinSystem : MonoBehaviour
 {
-    private float coin = 0;
+    static public float coin = 0;
 
-    public TextMeshProUGUI textCoins;
+    public TextMeshProUGUI infoCoins, endCoins;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -16,7 +16,8 @@ public class CoinSystem : MonoBehaviour
             AudioManager.instance.Play("Coin");
 
             coin++;
-            textCoins.text = coin.ToString();
+            infoCoins.text = coin.ToString();
+            endCoins.text = coin.ToString();
             Destroy(other.gameObject);
         }
     }

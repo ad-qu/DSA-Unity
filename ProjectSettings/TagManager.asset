@@ -8,6 +8,9 @@ TagManager:
   - Coins
   - Enemy
   - FallDetector
+  - FinishMenuPanel
+  - PauseMenuPanel
+  - GameInformationPanel
   layers:
   - Default
   - TransparentFX

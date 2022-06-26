@@ -9,25 +9,33 @@ public class PlayerCollision : MonoBehaviour
     private Vector3 respawnPoint;
     public GameObject fallDetector;
 
-    private string currentLevel;
-    private string nextLevel;
+    private int currentLevel = 1;
+    private int nextLevel = 2;
+
+    public GameObject[] players;
+    public GameObject[] fallDetectors;
+    public GameObject[] infoMenuScreens;
+    public GameObject[] pauseMenuScreens;
+    public GameObject[] endMenuScreens;
 
     static public bool activeShield = false;
 
     public TextMeshProUGUI levelText;
 
+    public TextMeshProUGUI coinEnd;
+    public TextMeshProUGUI pointsEnd;
+
+    public GameObject infoMenuScreen;
+    public GameObject pauseMenuScreen;
+    public GameObject endMenuScreen;
 
     private void Start()
     {
         respawnPoint = transform.position;
 
+        endMenuScreen.SetActive(false);
+
         StartCoroutine(ShowMessage());
-
-        currentLevel = GameManager.level.ToString();
-
-        if(currentLevel == "1") { nextLevel = "Level2"; }
-        else if (currentLevel == "2") { nextLevel = "Level3"; }
-        else if (currentLevel == "3") { nextLevel = "TheEnd"; }
     }
 
     private void Update()
@@ -44,14 +52,23 @@ public class PlayerCollision : MonoBehaviour
         }
         else if (collision.transform.tag == "Finish")
         {
-            if (nextLevel == "Level2") { GameManager.level = 2; currentLevel = "Level2" ; nextLevel = "Level3"; }
-            else if (nextLevel == "Level3") { GameManager.level = 3; currentLevel = "Level3"; nextLevel = "TheEnd"; }
+            if (nextLevel == 2) 
+            { 
+                GameManager.level = 2; currentLevel = 2 ; nextLevel = 3; 
+                
+                transform.position = respawnPoint;
 
-            SceneManager.LoadScene(currentLevel);
-            GameManager.InitGame();
+                SceneManager.LoadScene(currentLevel);
+                GameManager.InitGame();
+            }
+            else if (nextLevel == 3) 
+            { 
+                GameManager.level = 1; currentLevel = 1; nextLevel = 2;
 
-            if (nextLevel == "Level2") { currentLevel = "Level2"; nextLevel = "Level3"; }
-            else if (nextLevel == "Level3") { currentLevel = "Level3"; nextLevel = "TheEnd"; }
+                transform.position = respawnPoint;
+
+                End();
+            }
 
             StartCoroutine(ShowMessage());
         }
@@ -66,7 +83,6 @@ public class PlayerCollision : MonoBehaviour
             if (activeShield)
             {
                 HealthSystem.health = HealthSystem.health - 1;
-
             }
             else 
             { 
@@ -75,7 +91,6 @@ public class PlayerCollision : MonoBehaviour
             
             if(HealthSystem.health <= 0)
             {
-                transform.position = respawnPoint;
                 HealthSystem.health = 4;
             }
             else
@@ -83,6 +98,65 @@ public class PlayerCollision : MonoBehaviour
                 StartCoroutine(GetHurt());
             }
         }
+    }
+
+    public void End()
+    {
+        Time.timeScale = 0;
+        infoMenuScreen.SetActive(false);
+        endMenuScreen.SetActive(true);
+    }
+
+    public void Replay()
+    {
+        Time.timeScale = 1;
+        endMenuScreen.SetActive(false);
+
+        HealthSystem.health = 4;
+
+        SceneManager.LoadScene("Level1");
+        GameManager.InitGame();
+
+        infoMenuScreen.SetActive(true);
+    }
+
+    private void OnLevelWasLoaded(int level)
+    {
+        transform.position = respawnPoint;
+
+        players = GameObject.FindGameObjectsWithTag("Player");
+        fallDetectors = GameObject.FindGameObjectsWithTag("FallDetector");
+        infoMenuScreens = GameObject.FindGameObjectsWithTag("GameInformationPanel");
+        pauseMenuScreens = GameObject.FindGameObjectsWithTag("PauseMenuPanel");
+        endMenuScreens = GameObject.FindGameObjectsWithTag("FinishMenuPanel");
+
+        for (int i = 1; players.Length > i; i++)
+        {
+            Destroy(players[i]);
+        }
+
+        for (int i = 1; fallDetectors.Length > i; i++)
+        {
+            Destroy(fallDetectors[i]);
+        }
+
+        for (int i = 1; infoMenuScreens.Length > i; i++)
+        {
+            Destroy(infoMenuScreens[i]);
+        }
+
+        for (int i = 1; pauseMenuScreens.Length > i; i++)
+        {
+            Destroy(pauseMenuScreens[i]);
+        }
+
+        for (int i = 1; endMenuScreens.Length > i; i++)
+        {
+            Destroy(endMenuScreens[i]);
+        }
+
+        pauseMenuScreen.SetActive(false);
+        endMenuScreen.SetActive(false);
     }
 
     IEnumerator GetHurt()

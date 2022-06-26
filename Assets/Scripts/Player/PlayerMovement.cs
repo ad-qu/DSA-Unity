@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     private float horizontalInput;
     public static int numberCoins;
 
+    public GameObject infoMenuScreen;
     public GameObject pauseMenuScreen;
 
     private void Awake() {
@@ -21,6 +22,11 @@ public class PlayerMovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
+    }
+
+    private void Start()
+    {
+        pauseMenuScreen.SetActive(false);
     }
 
     private void Update() {
@@ -110,6 +116,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Quit() 
     {
+        //ENVIAR COSAS ¿?
         Application.Quit();
         Debug.Log("Quit");
     }

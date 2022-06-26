@@ -9,10 +9,9 @@ public class HealthSystem : MonoBehaviour
 
     public Image[] hearts;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-
+        
     }
 
     // Update is called once per frame
