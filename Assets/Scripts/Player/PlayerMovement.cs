@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     private float horizontalInput;
     public static int numberCoins;
 
+    public GameObject pauseMenuScreen;
+
     private void Awake() {
         
         //Grab references for rigidbody and animator from object
@@ -78,7 +80,6 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-
     //to wall jumping
      private bool isGrounded() 
     {
@@ -90,5 +91,22 @@ public class PlayerMovement : MonoBehaviour
     {
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, new Vector2(transform.localScale.x, 0), 0.1f, wallLayer);
         return raycastHit.collider != null; //si esta en el cielo
+    }
+    public void Pause() //Pause the entire movement of the player and the game if it's equal to 0. Default is equal to 1.
+    {
+        Time.timeScale = 0;
+        pauseMenuScreen.SetActive(true);
+    }
+
+    public void Resume() 
+    {
+        Time.timeScale = 1;
+        pauseMenuScreen.SetActive(false);
+    }
+
+    public void Quit() 
+    {
+        Application.Quit();
+        Debug.Log("Quit");
     }
 }
