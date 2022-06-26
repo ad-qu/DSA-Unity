@@ -43,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
             if (onWall() && !isGrounded())
             {
                 body.gravityScale = 0;
-                body.velocity = Vector2.zero;
+                body.velocity = Vector2.zero; 
             }
             else
                 body.gravityScale = 7;

@@ -1,14 +1,15 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance = null;
 
-    private BoardManager boardScript;
+    public static BoardManager boardScript;
 
-    private int level = 1;
+    public static int level = 1;
 
     void Awake()
     {
@@ -23,13 +24,8 @@ public class GameManager : MonoBehaviour
         InitGame();
     }
 
-    void InitGame()
+    static public void InitGame()
     {
         boardScript.SetupScene(level);
-    }
-
-    void Update()
-    {
-
     }
 }
