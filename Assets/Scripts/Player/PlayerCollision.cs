@@ -61,7 +61,9 @@ public class PlayerCollision : MonoBehaviour
     {
         if(collision.transform.tag == "Enemy")
         {
-            if(activeShield)
+            AudioManager.instance.Play("Hit");
+
+            if (activeShield)
             {
                 HealthSystem.health = HealthSystem.health - 1;
 
@@ -76,7 +78,6 @@ public class PlayerCollision : MonoBehaviour
                 transform.position = respawnPoint;
                 HealthSystem.health = 4;
             }
-
             else
             {
                 StartCoroutine(GetHurt());

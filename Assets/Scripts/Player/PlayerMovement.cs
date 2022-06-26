@@ -58,13 +58,17 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void Jump() {
+
         if (isGrounded())
         {
             body.velocity = new Vector2(body.velocity.x, jumpPower);
             anim.SetTrigger("jump");
+            AudioManager.instance.Play("Jump");
         }
         else if (onWall() && !isGrounded())
         {
+            AudioManager.instance.Play("Jump");
+
             if (horizontalInput == 0)
             {
                 body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 10, 0);

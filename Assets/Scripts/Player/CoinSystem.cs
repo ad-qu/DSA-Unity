@@ -13,6 +13,8 @@ public class CoinSystem : MonoBehaviour
     {
         if(other.transform.tag == "Coins")
         {
+            AudioManager.instance.Play("Coin");
+
             coin++;
             textCoins.text = coin.ToString();
             Destroy(other.gameObject);
