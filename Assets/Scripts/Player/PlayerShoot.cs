@@ -25,9 +25,25 @@ public class PlayerShoot : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.J) && !isShooting)
         {
-            StartCoroutine(Shoot1());
+            Attack1();
         }
         else if(Input.GetKey(KeyCode.K) && !isShooting) 
+        {
+            Attack2();
+        }
+    }
+
+    public void Attack1()
+    {
+        if (!isShooting)
+        {
+            StartCoroutine(Shoot1());
+        }
+    }
+
+    public void Attack2()
+    {
+        if (!isShooting)
         {
             StartCoroutine(Shoot2());
         }

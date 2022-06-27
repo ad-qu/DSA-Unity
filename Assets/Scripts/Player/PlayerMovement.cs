@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
 
         Debug.Log(numberCoins);
 
-        horizontalInput = Input.GetAxis("Horizontal");
+        horizontalInput = SimpleInput.GetAxis("horizontal");
 
         //Flip player when moving left or right
         if(horizontalInput > 0.01f) { transform.localScale = Vector3.one; }
@@ -55,6 +55,7 @@ public class PlayerMovement : MonoBehaviour
             }
             else
                 body.gravityScale = 7;
+            
             if (Input.GetKey(KeyCode.Space))
                 Jump();
         }
@@ -63,12 +64,13 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    private void Jump() {
+    public void Jump() {
+
+        anim.SetTrigger("jump");
 
         if (isGrounded())
         {
             body.velocity = new Vector2(body.velocity.x, jumpPower);
-            anim.SetTrigger("jump");
             AudioManager.instance.Play("Jump");
         }
         else if (onWall() && !isGrounded())
