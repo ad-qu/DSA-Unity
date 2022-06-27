@@ -11,6 +11,8 @@ public class PlayerShoot : MonoBehaviour
     public Transform shootPos;
     public GameObject bullet;
 
+    static public bool weapon1 = true, weapon2 = true;
+
     private Animator anim;
     void Start()
     {
@@ -35,7 +37,7 @@ public class PlayerShoot : MonoBehaviour
 
     public void Attack1()
     {
-        if (!isShooting)
+        if ((!isShooting) && (weapon1))
         {
             StartCoroutine(Shoot1());
         }
@@ -43,7 +45,7 @@ public class PlayerShoot : MonoBehaviour
 
     public void Attack2()
     {
-        if (!isShooting)
+        if ((!isShooting) && (weapon2))
         {
             StartCoroutine(Shoot2());
         }
