@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
 
     public static BoardManager boardScript;
 
-    public static int level = 1;
+    public static int level = 0;
 
     void Awake()
     {

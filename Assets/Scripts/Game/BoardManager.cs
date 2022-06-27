@@ -31,7 +31,7 @@ public class BoardManager : MonoBehaviour
     {
         int i = -10, y = -10;
 
-        if (level == 1)
+        if (level == 0)
         {
             while (i <= (columns + 10)) //Building the sky
             {
@@ -44,7 +44,7 @@ public class BoardManager : MonoBehaviour
             {
                 while (i < columns)
                 {
-                    if ((i == 12) || (i == 13) || (i == 14) || (i == 24) || (i == 26) || (i == 27) || (i == 30) || (i == 31) || (i == 33) || (i == 34) ||
+                    if ((i == 12) || (i == 13) || (i == 14) || (i == 24) || (i == 26) || (i == 27) || (i == 33) || (i == 34) ||
                         (i == 45) || (i == 46) || (i == 47) || (i == 48) || (i == 49) || (i == 50) || (i == 51) || (i == 52) || (i == 61) || (i == 62) || (i == 63) || (i == 64)) { i++; }
                     
                     else { Instantiate(ground, new Vector3(i, y), Quaternion.identity); i++; }
@@ -171,8 +171,8 @@ public class BoardManager : MonoBehaviour
             {
                 while (i < columns)
                 {
-                    if (((i == 11) && (y == 1)) || ((i == 11) && (y == 2)) || ((i == 11) && (y == 3)) || ((i == 11) && (y == 4)) || ((i == 11) && (y == 5)) || ((i == 26) && (y == 7)) ||
-                        ((i == 26) && (y == 8)) || ((i == 26) && (y == 9)) || ((i == 26) && (y == 10)) || ((i == 26) && (y == 11)) || ((i == 27) && (y == 1)) || ((i == 38) && (y == 2)) ||
+                    if (((i == 11) && (y == 1)) || ((i == 11) && (y == 2)) || ((i == 11) && (y == 3)) || ((i == 11) && (y == 4)) || ((i == 11) && (y == 5)) ||
+                        ((i == 26) && (y == 9)) || ((i == 26) && (y == 10)) || ((i == 26) && (y == 11)) || ((i == 27) && (y == 1)) || ((i == 38) && (y == 2)) ||
                         ((i == 38) && (y == 3)) || ((i == 48) && (y == 6)) || ((i == 48) && (y == 7)) || ((i == 48) && (y == 8)) || ((i == 48) && (y == 9)) || ((i == 48) && (y == 10)) || 
                         ((i == 58) && (y == 1)) || ((i == 59) && (y == 1)) || ((i == 60) && (y == 1)) || ((i == 61) && (y == 1)) || ((i == 59) && (y == 2)) || ((i == 60) && (y == 2)) || 
                         ((i == 61) && (y == 2)) || ((i == 60) && (y == 3)) || ((i == 61) && (y == 3)) || ((i == 61) && (y == 4))) { Instantiate(basicWall, new Vector3(i, y), Quaternion.identity); i++; }
@@ -212,7 +212,7 @@ public class BoardManager : MonoBehaviour
 
     public void PlacingCoins(int level)
     {
-        if (level == 1)
+        if (level == 0)
         {
             Instantiate(coin, new Vector3(19, 5), Quaternion.identity); Instantiate(coin, new Vector3(33, 8), Quaternion.identity);
             Instantiate(coin, new Vector3(35, 1), Quaternion.identity); Instantiate(coin, new Vector3(37, 6), Quaternion.identity);
@@ -235,7 +235,7 @@ public class BoardManager : MonoBehaviour
 
     public void GenerateEnemies(int level)
     {
-        if (level == 1)
+        if (level == 0)
         {
             Instantiate(goomba, new Vector3(15, 1), Quaternion.identity);
             Instantiate(goomba, new Vector3(17, 5), Quaternion.identity);
@@ -258,7 +258,7 @@ public class BoardManager : MonoBehaviour
     {
         PlacingClouds();
 
-        if (level == 1)
+        if (level == 0)
         {
             Instantiate(smallBush[0], new Vector3(4, 1), Quaternion.identity); Instantiate(smallBush[1], new Vector3(5, 1), Quaternion.identity);
             Instantiate(smallBush[0], new Vector3(-3, 1), Quaternion.identity); Instantiate(smallBush[1], new Vector3(-2, 1), Quaternion.identity);

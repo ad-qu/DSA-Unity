@@ -9,8 +9,8 @@ public class PlayerCollision : MonoBehaviour
     private Vector3 respawnPoint;
     public GameObject fallDetector;
 
-    private int currentLevel = 1;
-    private int nextLevel = 2;
+    private int currentLevel = 0;
+    private int nextLevel = 1;
 
     public GameObject[] players;
     public GameObject[] fallDetectors;
@@ -52,18 +52,18 @@ public class PlayerCollision : MonoBehaviour
         }
         else if (collision.transform.tag == "Finish")
         {
-            if (nextLevel == 2) 
+            if (GameManager.level == 0) 
             { 
-                GameManager.level = 2; currentLevel = 2 ; nextLevel = 3; 
+                GameManager.level = 1; 
                 
                 transform.position = respawnPoint;
 
-                SceneManager.LoadScene(currentLevel);
+                SceneManager.LoadScene(1);
                 GameManager.InitGame();
             }
-            else if (nextLevel == 3) 
+            else if (GameManager.level == 1) 
             { 
-                GameManager.level = 1; currentLevel = 1; nextLevel = 2;
+                GameManager.level = 0;
 
                 transform.position = respawnPoint;
 
@@ -115,7 +115,7 @@ public class PlayerCollision : MonoBehaviour
 
         HealthSystem.health = 4;
 
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene(0);
         GameManager.InitGame();
 
         infoMenuScreen.SetActive(true);
@@ -170,7 +170,7 @@ public class PlayerCollision : MonoBehaviour
     }
     IEnumerator ShowMessage()
     {
-        levelText.text = "LEVEL " + GameManager.level;
+        levelText.text = "LEVEL " + (GameManager.level + 1);
         levelText.enabled = true;
         yield return new WaitForSeconds(2);
         levelText.enabled = false;

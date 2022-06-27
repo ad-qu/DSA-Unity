@@ -33,10 +33,11 @@ public class PlayerMovement : MonoBehaviour
 
         Debug.Log(numberCoins);
 
-        horizontalInput = SimpleInput.GetAxis("horizontal");
+        horizontalInput = SimpleInput.GetAxis("Horizontal");
+        //horizontalInput = Input.GetAxis("Horizontal"); //TO USE AWSD
 
         //Flip player when moving left or right
-        if(horizontalInput > 0.01f) { transform.localScale = Vector3.one; }
+        if (horizontalInput > 0.01f) { transform.localScale = Vector3.one; }
         else if(horizontalInput < -0.01f) { transform. localScale = new Vector3(-1, 1, 1); }
 
         //Set animator parameters
@@ -61,7 +62,6 @@ public class PlayerMovement : MonoBehaviour
         }
         else
             wallJumpCoolDown += Time.deltaTime;
-
     }
 
     public void Jump() {
