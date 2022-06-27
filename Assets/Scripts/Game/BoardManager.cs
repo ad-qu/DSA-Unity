@@ -119,7 +119,7 @@ public class BoardManager : MonoBehaviour
             BuildingInvisibleWallAndExit();
         }
 
-        if (level == 2)
+        else
         {
             while (i <= (columns + 10)) //Building the sky
             {
@@ -134,7 +134,7 @@ public class BoardManager : MonoBehaviour
                 while (i < columns)
                 {
                     if ((i == 12) || (i == 13) || (i == 14) || (i == 15) || (i == 16) || (i == 17) || (i == 18) || (i == 19) || (i == 20) || (i == 21) ||
-                        (i == 22) || (i == 23) || (i == 24) || (i == 25) || (i == 26) || (i == 50) || (i == 51) || (i == 52) || (i == 61) || (i == 62) || (i == 63) || (i == 64)) { i++; }
+                        (i == 22) || (i == 23) || (i == 24) || (i == 25) || (i == 26) || (i == 28) || (i == 57) || (i == 62) || (i == 63) || (i == 64)) { i++; }
 
                     else { Instantiate(ground, new Vector3(i, y), Quaternion.identity); i++; }
                 }
@@ -150,9 +150,13 @@ public class BoardManager : MonoBehaviour
                 while (i < columns)
                 {
                     if (((i == 14) && (y == 2)) || ((i == 15) && (y == 2)) || ((i == 16) && (y == 2)) || ((i == 17) && (y == 2)) || ((i == 18) && (y == 2)) || ((i == 19) && (y == 2)) ||
-                        ((i == 26) && (y == 2)) || ((i == 28) && (y == 5)) || ((i == 29) && (y == 5)) || ((i == 30) && (y == 5)) || ((i == 31) && (y == 5)) || ((i == 32) && (y == 5)) ||
-                        ((i == 33) && (y == 5)) || ((i == 35) && (y == 5)) || ((i == 36) && (y == 5)) || ((i == 37) && (y == 5)) || ((i == 38) && (y == 5)) || ((i == 39) && (y == 5)) ||
-                        ((i == 46) && (y == 2)) || ((i == 47) && (y == 2)) || ((i == 48) && (y == 2)) || ((i == 49) && (y == 2)) || ((i == 50) && (y == 2)) || ((i == 51) && (y == 2))) { Instantiate(brick, new Vector3(i, y), Quaternion.identity); i++; }
+                        ((i == 16) && (y == 7)) || ((i == 17) && (y == 7)) || ((i == 21) && (y == 7)) || ((i == 22) && (y == 7)) || ((i == 25) && (y == 2)) ||
+                        ((i == 23) && (y == 7)) || ((i == 22) && (y == 2)) || ((i == 23) && (y == 2)) || ((i == 24) && (y == 2)) || ((i == 30) && (y == 4)) || ((i == 31) && (y == 4)) ||
+                        ((i == 32) && (y == 4)) || ((i == 33) && (y == 4)) || ((i == 36) && (y == 7)) || ((i == 37) && (y == 7)) || ((i == 40) && (y == 2)) || ((i == 41) && (y == 2)) || 
+                        ((i == 42) && (y == 2)) || ((i == 43) && (y == 2)) || ((i == 45) && (y == 4)) || ((i == 46) && (y == 4)) || ((i == 47) && (y == 4)) || ((i == 48) && (y == 4)) || 
+                        ((i == 49) && (y == 4)) || ((i == 50) && (y == 4))) { Instantiate(brick, new Vector3(i, y), Quaternion.identity); i++; }
+
+                    else if (((i == 16) && (y == 6)) || ((i == 17) && (y == 6))) { Instantiate(castle[2], new Vector3(i, y), Quaternion.identity); i++; }
 
                     else { i++; }
                 }
@@ -163,13 +167,15 @@ public class BoardManager : MonoBehaviour
 
             i = 10; y = 1;
 
-            while (y < 10) //Building the basic walls
+            while (y < 12) //Building the basic walls
             {
                 while (i < columns)
                 {
-                    if (((i == 11) && (y == 1)) || ((i == 11) && (y == 2)) || ((i == 11) && (y == 3)) || ((i == 11) && (y == 4)) || ((i == 11) && (y == 5)) || ((i == 49) && (y == 4)) ||
-                        ((i == 49) && (y == 5)) || ((i == 49) && (y == 6)) || ((i == 49) && (y == 7)) || ((i == 49) && (y == 8)) || ((i == 58) && (y == 1)) || ((i == 59) && (y == 1)) ||
-                        ((i == 60) && (y == 1)) || ((i == 59) && (y == 2)) || ((i == 60) && (y == 2)) || ((i == 60) && (y == 3))) { Instantiate(basicWall, new Vector3(i, y), Quaternion.identity); i++; }
+                    if (((i == 11) && (y == 1)) || ((i == 11) && (y == 2)) || ((i == 11) && (y == 3)) || ((i == 11) && (y == 4)) || ((i == 11) && (y == 5)) || ((i == 26) && (y == 7)) ||
+                        ((i == 26) && (y == 8)) || ((i == 26) && (y == 9)) || ((i == 26) && (y == 10)) || ((i == 26) && (y == 11)) || ((i == 27) && (y == 1)) || ((i == 38) && (y == 2)) ||
+                        ((i == 38) && (y == 3)) || ((i == 48) && (y == 6)) || ((i == 48) && (y == 7)) || ((i == 48) && (y == 8)) || ((i == 48) && (y == 9)) || ((i == 48) && (y == 10)) || 
+                        ((i == 58) && (y == 1)) || ((i == 59) && (y == 1)) || ((i == 60) && (y == 1)) || ((i == 61) && (y == 1)) || ((i == 59) && (y == 2)) || ((i == 60) && (y == 2)) || 
+                        ((i == 61) && (y == 2)) || ((i == 60) && (y == 3)) || ((i == 61) && (y == 3)) || ((i == 61) && (y == 4))) { Instantiate(basicWall, new Vector3(i, y), Quaternion.identity); i++; }
 
                     else { i++; }
                 }
@@ -180,17 +186,15 @@ public class BoardManager : MonoBehaviour
 
             i = 10; y = 1;
 
-            while (y < 10) //Building the sticky walls
+            while (y < 11) //Building the sticky walls
             {
-                var rnd1 = Random.Range(0, 2);
-                var rnd2 = Random.Range(3, 5);
+                var rnd = Random.Range(0, 2);
 
                 while (i < columns)
                 {
-                    if (((i == 10) && (y == 1)) || ((i == 10) && (y == 2)) || ((i == 10) && (y == 3)) || ((i == 10) && (y == 4)) || ((i == 10) && (y == 5)) || ((i == 48) && (y == 4)) ||
-                        ((i == 48) && (y == 5)) || ((i == 48) && (y == 6)) || ((i == 48) && (y == 7)) || ((i == 48) && (y == 8))) { Instantiate(wall[rnd1], new Vector3(i, y), Quaternion.identity); i++; }
-
-                    else if (((i == 40) && (y == 1)) || ((i == 40) && (y == 2)) || ((i == 40) && (y == 3)) || ((i == 40) && (y == 4)) || ((i == 40) && (y == 5))) { Instantiate(wall[rnd2], new Vector3(i, y), Quaternion.identity); i++; }
+                    if (((i == 10) && (y == 1)) || ((i == 10) && (y == 2)) || ((i == 10) && (y == 3)) || ((i == 10) && (y == 4)) || ((i == 10) && (y == 5)) || ((i == 20) && (y == 4)) ||
+                        ((i == 20) && (y == 5)) || ((i == 20) && (y == 6)) || ((i == 20) && (y == 7)) || ((i == 37) && (y == 2)) || ((i == 37) && (y == 3)) || ((i == 47) && (y == 6)) || 
+                        ((i == 47) && (y == 7)) || ((i == 47) && (y == 8)) || ((i == 47) && (y == 9)) || ((i == 47) && (y == 10))) { Instantiate(wall[rnd = Random.Range(0, 2)], new Vector3(i, y), Quaternion.identity); i++; }
 
                     else { i++; }
                 }
@@ -200,17 +204,9 @@ public class BoardManager : MonoBehaviour
             }
 
             PlacingCoins(level);
-
             GenerateEnemies(level);
-
             PlacingDecorations(level);
-
             BuildingInvisibleWallAndExit();
-        }
-
-        if (level == 3)
-        {
-
         }
     }
 
@@ -223,13 +219,17 @@ public class BoardManager : MonoBehaviour
             Instantiate(coin, new Vector3(41, 3), Quaternion.identity); Instantiate(coin, new Vector3(49, 9), Quaternion.identity);
             Instantiate(coin, new Vector3(55, 1), Quaternion.identity); Instantiate(coin, new Vector3(63, 7), Quaternion.identity);
         }
-        else if (level == 2)
-        {
-
-        }
         else
         {
-
+            Instantiate(coin, new Vector3(16, 8), Quaternion.identity); Instantiate(coin, new Vector3(16, 9), Quaternion.identity);
+            Instantiate(coin, new Vector3(17, 8), Quaternion.identity); Instantiate(coin, new Vector3(17, 9), Quaternion.identity);
+            Instantiate(coin, new Vector3(19, 3), Quaternion.identity); Instantiate(coin, new Vector3(23, 8), Quaternion.identity); 
+            Instantiate(coin, new Vector3(22, 3), Quaternion.identity); Instantiate(coin, new Vector3(25, 10), Quaternion.identity);
+            Instantiate(coin, new Vector3(32, 6), Quaternion.identity); Instantiate(coin, new Vector3(37, 8), Quaternion.identity);
+            Instantiate(coin, new Vector3(48, 11), Quaternion.identity); Instantiate(coin, new Vector3(45, 1), Quaternion.identity);
+            Instantiate(coin, new Vector3(46, 1), Quaternion.identity); Instantiate(coin, new Vector3(47, 1), Quaternion.identity);
+            Instantiate(coin, new Vector3(48, 1), Quaternion.identity); Instantiate(coin, new Vector3(49, 1), Quaternion.identity);
+            Instantiate(coin, new Vector3(50, 1), Quaternion.identity); Instantiate(coin, new Vector3(63, 8), Quaternion.identity);
         }
     }
 
@@ -243,22 +243,27 @@ public class BoardManager : MonoBehaviour
             Instantiate(goomba, new Vector3(35, 6), Quaternion.identity);
             Instantiate(goomba, new Vector3(46, 3), Quaternion.identity);
         }
-        else if (level == 2)
-        {
-
-        }
         else
         {
-
+            Instantiate(goomba, new Vector3(14, 3), Quaternion.identity);
+            Instantiate(goomba, new Vector3(20, 8), Quaternion.identity);
+            Instantiate(goomba, new Vector3(30, 5), Quaternion.identity);
+            Instantiate(goomba, new Vector3(45, 5), Quaternion.identity);
+            Instantiate(goomba, new Vector3(28, 1), Quaternion.identity);
+            Instantiate(goomba, new Vector3(50, 1), Quaternion.identity);
         }
     }
 
     public void PlacingDecorations(int level)
     {
+        PlacingClouds();
+
         if (level == 1)
         {
-            PlacingClouds();
-
+            Instantiate(smallBush[0], new Vector3(4, 1), Quaternion.identity); Instantiate(smallBush[1], new Vector3(5, 1), Quaternion.identity);
+            Instantiate(smallBush[0], new Vector3(-3, 1), Quaternion.identity); Instantiate(smallBush[1], new Vector3(-2, 1), Quaternion.identity);
+            Instantiate(smallBush[0], new Vector3(17, 1), Quaternion.identity); Instantiate(smallBush[1], new Vector3(18, 1), Quaternion.identity);
+            Instantiate(smallBush[0], new Vector3(21, 1), Quaternion.identity); Instantiate(smallBush[1], new Vector3(22, 1), Quaternion.identity);
             Instantiate(smallBush[0], new Vector3(28, 1), Quaternion.identity); Instantiate(smallBush[1], new Vector3(29, 1), Quaternion.identity);
             Instantiate(smallBush[0], new Vector3(21, 1), Quaternion.identity); Instantiate(smallBush[1], new Vector3(22, 1), Quaternion.identity);
             Instantiate(smallBush[0], new Vector3(42, 1), Quaternion.identity); Instantiate(smallBush[1], new Vector3(43, 1), Quaternion.identity);
@@ -269,13 +274,18 @@ public class BoardManager : MonoBehaviour
             Instantiate(mountain[0], new Vector3(54, 1), Quaternion.identity); Instantiate(mountain[1], new Vector3(55, 1), Quaternion.identity);
             Instantiate(mountain[2], new Vector3(55, 2), Quaternion.identity); Instantiate(mountain[3], new Vector3(56, 1), Quaternion.identity);
         }
-        else if (level == 2)
-        {
-
-        }
         else
         {
+            Instantiate(smallBush[0], new Vector3(4, 1), Quaternion.identity); Instantiate(smallBush[1], new Vector3(5, 1), Quaternion.identity);
+            Instantiate(smallBush[0], new Vector3(-3, 1), Quaternion.identity); Instantiate(smallBush[1], new Vector3(-2, 1), Quaternion.identity);
+            Instantiate(smallBush[0], new Vector3(30, 1), Quaternion.identity); Instantiate(smallBush[1], new Vector3(31, 1), Quaternion.identity);
+            Instantiate(smallBush[0], new Vector3(42, 1), Quaternion.identity); Instantiate(smallBush[1], new Vector3(43, 1), Quaternion.identity);
+            Instantiate(smallBush[0], new Vector3(66, 1), Quaternion.identity); Instantiate(smallBush[1], new Vector3(67, 1), Quaternion.identity);
 
+            Instantiate(mountain[0], new Vector3(33, 1), Quaternion.identity); Instantiate(mountain[1], new Vector3(34, 1), Quaternion.identity);
+            Instantiate(mountain[2], new Vector3(34, 2), Quaternion.identity); Instantiate(mountain[3], new Vector3(35, 1), Quaternion.identity);
+            Instantiate(mountain[0], new Vector3(53, 1), Quaternion.identity); Instantiate(mountain[1], new Vector3(54, 1), Quaternion.identity);
+            Instantiate(mountain[2], new Vector3(54, 2), Quaternion.identity); Instantiate(mountain[3], new Vector3(55, 1), Quaternion.identity);
         }
     }
 
@@ -327,7 +337,5 @@ public class BoardManager : MonoBehaviour
         Instantiate(castle[2], new Vector3(73, 1), Quaternion.identity);
 
         Instantiate(exit, new Vector3(72, 1), Quaternion.identity);
-
-        Instantiate(exit, new Vector3(2, 1), Quaternion.identity);
     }
 }

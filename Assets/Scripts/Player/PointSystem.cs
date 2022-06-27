@@ -19,7 +19,7 @@ public class PointSystem : MonoBehaviour
     void Update()
     {
         currentTime -= 1 * Time.deltaTime;
-        countdownText.text = currentTime.ToString("0");
+        countdownText.text = "Points: " + currentTime.ToString("0");
         endCountDownText.text = currentTime.ToString("0");
 
         if (currentTime <= 0)

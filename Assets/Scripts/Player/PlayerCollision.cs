@@ -92,6 +92,7 @@ public class PlayerCollision : MonoBehaviour
             if(HealthSystem.health <= 0)
             {
                 HealthSystem.health = 4;
+                transform.position = respawnPoint;
             }
             else
             {
