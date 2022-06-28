@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class PlayerShoot : MonoBehaviour
 {
@@ -11,7 +13,8 @@ public class PlayerShoot : MonoBehaviour
     public Transform shootPos;
     public GameObject bullet;
 
-    static public bool weapon1 = true, weapon2 = true;
+    string toastText = "Buy this weapon to use it";
+    static public bool weapon1 = true, weapon2 = false;
 
     private Animator anim;
     void Start()
@@ -41,6 +44,7 @@ public class PlayerShoot : MonoBehaviour
         {
             StartCoroutine(Shoot1());
         }
+        else if (!weapon1) { onShowToastClicked(); }
     }
 
     public void Attack2()
@@ -49,6 +53,7 @@ public class PlayerShoot : MonoBehaviour
         {
             StartCoroutine(Shoot2());
         }
+        else if (!weapon2) { onShowToastClicked(); }
     }
 
     IEnumerator Shoot1()
@@ -85,5 +90,39 @@ public class PlayerShoot : MonoBehaviour
         AudioManager.instance.Play("Shoot");
         yield return new WaitForSeconds(shootTimer);
         isShooting = false;
+    }
+
+    public void onShowToastClicked()
+    {
+#if UNITY_ANDROID
+        showAndroidToast();
+#else
+        Debug.Log("No Toast setup for this platform.");
+#endif
+    }
+
+    private void showAndroidToast()
+    {
+        //create a Toast class object
+        AndroidJavaClass toastClass =
+                    new AndroidJavaClass("android.widget.Toast");
+
+        //create an array and add params to be passed
+        object[] toastParams = new object[3];
+        AndroidJavaClass unityActivity =
+          new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+        toastParams[0] =
+                     unityActivity.GetStatic<AndroidJavaObject>
+                               ("currentActivity");
+        toastParams[1] = toastText;
+        toastParams[2] = toastClass.GetStatic<int>
+                               ("LENGTH_SHORT");
+
+        //call static function of Toast class, makeText
+        AndroidJavaObject toastObject =
+                        toastClass.CallStatic<AndroidJavaObject>
+                                      ("makeText", toastParams);
+        //show toast
+        toastObject.Call("show");
     }
 }
