@@ -5,7 +5,7 @@ using TMPro;
 
 public class CoinSystem : MonoBehaviour
 {
-    static public float coin = 0;
+    static public float coin;
 
     public TextMeshProUGUI infoCoins, endCoins;
 

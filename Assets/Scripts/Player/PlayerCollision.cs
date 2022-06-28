@@ -7,10 +7,12 @@ using TMPro;
 public class PlayerCollision : MonoBehaviour
 {
     private Vector3 respawnPoint;
+
     public GameObject fallDetector;
 
-    private int currentLevel = 0;
-    private int nextLevel = 1;
+    public GameObject infoMenuScreen;
+    public GameObject pauseMenuScreen;
+    public GameObject endMenuScreen;
 
     public GameObject[] players;
     public GameObject[] fallDetectors;
@@ -18,19 +20,23 @@ public class PlayerCollision : MonoBehaviour
     public GameObject[] pauseMenuScreens;
     public GameObject[] endMenuScreens;
 
-    static public bool activeShield = false;
+    static public bool activeShield, endGame = false;
 
     public TextMeshProUGUI levelText;
 
     public TextMeshProUGUI coinEnd;
     public TextMeshProUGUI pointsEnd;
 
-    public GameObject infoMenuScreen;
-    public GameObject pauseMenuScreen;
-    public GameObject endMenuScreen;
+    string informationToAndroid;
+
+    AndroidJavaClass UnityPlayer;
+    AndroidJavaObject currentActivity;
 
     private void Start()
     {
+        UnityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+        currentActivity = UnityPlayer.GetStatic<AndroidJavaObject>("currentActivity");
+
         respawnPoint = transform.position;
 
         endMenuScreen.SetActive(false);
@@ -103,6 +109,12 @@ public class PlayerCollision : MonoBehaviour
 
     public void End()
     {
+        endGame = true;
+
+        informationToAndroid = coinEnd + "/" + pointsEnd + "/" + "true";
+
+        currentActivity.Call("onGameFinish", informationToAndroid);
+
         Time.timeScale = 0;
         infoMenuScreen.SetActive(false);
         endMenuScreen.SetActive(true);
@@ -110,6 +122,8 @@ public class PlayerCollision : MonoBehaviour
 
     public void Replay()
     {
+        endGame = false;
+
         Time.timeScale = 1;
         endMenuScreen.SetActive(false);
 

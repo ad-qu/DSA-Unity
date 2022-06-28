@@ -14,7 +14,7 @@ public class PlayerShoot : MonoBehaviour
     public GameObject bullet;
 
     string toastText = "Buy this weapon to use it";
-    static public bool weapon1 = true, weapon2 = false;
+    static public bool weapon1, weapon2;
 
     private Animator anim;
     void Start()

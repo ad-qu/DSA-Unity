@@ -13,8 +13,13 @@ public class PlayerMovement : MonoBehaviour
     private float horizontalInput;
     public static int numberCoins;
 
+    string informationToAndroid;
+
     public GameObject infoMenuScreen;
     public GameObject pauseMenuScreen;
+
+    AndroidJavaClass UnityPlayer;
+    AndroidJavaObject currentActivity;
 
     private void Awake() {
         
@@ -26,6 +31,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
+        UnityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+        currentActivity = UnityPlayer.GetStatic<AndroidJavaObject>("currentActivity");
+
         pauseMenuScreen.SetActive(false);
     }
 
@@ -118,8 +126,17 @@ public class PlayerMovement : MonoBehaviour
 
     public void Quit() 
     {
-        //ENVIAR COSAS ¿?
+        if (PlayerCollision.endGame == false)
+        {
+            informationToAndroid = CoinSystem.coin.ToString() + "/0/" + "false";
+            currentActivity.Call("onGameFinish", informationToAndroid);
+        }
+        else
+        {
+            informationToAndroid = CoinSystem.coin.ToString() + PointSystem.currentTime + "true";
+            currentActivity.Call("onGameFinish", informationToAndroid);
+        }
+
         Application.Quit();
-        Debug.Log("Quit");
     }
 }
